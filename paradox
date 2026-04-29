@@ -1,0 +1,1150 @@
+-- ts file was generated at discord.gg/25ms
+
+paradoxlibrary = {}
+
+function paradoxlibrary.window(_)
+    local u1 = {
+        ['1'] = Instance.new('ScreenGui', game.CoreGui),
+    }
+
+    u1['1'].Name = 'paradox'
+    u1['1'].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    u1['2'] = Instance.new('Frame', u1['1'])
+    u1['2'].BorderSizePixel = 0
+    u1['2'].BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+    u1['2'].AnchorPoint = Vector2.new(0.5, 0.5)
+    u1['2'].Size = UDim2.new(0.34634, 0, 0.47613, 0)
+    u1['2'].Position = UDim2.new(0.5, 0, 0.77, 0)
+    u1['2'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u1['2'].Name = 'main'
+    u1['2'].BackgroundTransparency = 0.1
+    u1['3'] = Instance.new('UICorner', u1['2'])
+    u1['3'].CornerRadius = UDim.new(0, 4)
+    u1['4'] = Instance.new('ImageLabel', u1['2'])
+    u1['4'].BorderSizePixel = 0
+    u1['4'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u1['4'].ImageColor3 = Color3.fromRGB(166, 166, 166)
+    u1['4'].Image = 'rbxassetid://10709791523'
+    u1['4'].Size = UDim2.new(0.0753, 0, 0.06831, 0)
+    u1['4'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u1['4'].BackgroundTransparency = 1
+    u1['4'].Rotation = 180
+    u1['4'].Name = 'chevron'
+    u1['4'].Position = UDim2.new(0.46096, 0, -0.06831, 0)
+    u1['5'] = Instance.new('TextButton', u1['4'])
+    u1['5'].BorderSizePixel = 0
+    u1['5'].TextColor3 = Color3.fromRGB(0, 0, 0)
+    u1['5'].TextSize = 14
+    u1['5'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u1['5'].FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    u1['5'].Size = UDim2.new(1, 0, 1, 0)
+    u1['5'].BackgroundTransparency = 1
+    u1['5'].Name = 'trigger'
+    u1['5'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u1['5'].Text = ''
+    u1['6'] = Instance.new('UIAspectRatioConstraint', u1['4'])
+    u1['6'].AspectRatio = 1.0326
+    u1['7'] = Instance.new('LocalScript', u1['2'])
+    u1['7'].Name = 'script'
+    u1['8'] = Instance.new('UIAspectRatioConstraint', u1['2'])
+    u1['8'].AspectRatio = 0.93668
+    u1['9'] = Instance.new('Frame', u1['2'])
+    u1['9'].BorderSizePixel = 0
+    u1['9'].BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+    u1['9'].Size = UDim2.new(0.94366, 0, 0.17414, 0)
+    u1['9'].Position = UDim2.new(0.02817, 0, 0.79947, 0)
+    u1['9'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u1['9'].Name = 'tabholder'
+    u1['9'].BackgroundTransparency = 0.3
+    u1.a = Instance.new('UICorner', u1['9'])
+    u1.a.CornerRadius = UDim.new(0, 4)
+    u1.b = Instance.new('Frame', u1['9'])
+    u1.b.BorderSizePixel = 0
+    u1.b.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u1.b.Size = UDim2.new(0.94328, 0, 0.71212, 0)
+    u1.b.Position = UDim2.new(0.03881, 0, 0.15308, 0)
+    u1.b.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u1.b.Name = 'layoutholder'
+    u1.b.BackgroundTransparency = 1
+    u1.c = Instance.new('UIGridLayout', u1.b)
+    u1.c.CellSize = UDim2.new(0.108, 0, 0.745, 0)
+    u1.c.VerticalAlignment = Enum.VerticalAlignment.Center
+    u1.c.SortOrder = Enum.SortOrder.LayoutOrder
+    u1.d = Instance.new('UIAspectRatioConstraint', u1.b)
+    u1.d.AspectRatio = 6.7234
+    u1.e = Instance.new('UIAspectRatioConstraint', u1['9'])
+    u1.e.AspectRatio = 5.07576
+    u1.f = Instance.new('Frame', u1['2'])
+    u1.f.BorderSizePixel = 0
+    u1.f.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+    u1.f.Size = UDim2.new(0.94366, 0, 0.10818, 0)
+    u1.f.Position = UDim2.new(0.02817, 0, 0.02639, 0)
+    u1.f.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u1.f.Name = 'tabnameholder'
+    u1.f.BackgroundTransparency = 0.3
+    u1['10'] = Instance.new('UICorner', u1.f)
+    u1['10'].CornerRadius = UDim.new(0, 4)
+    u1['11'] = Instance.new('TextLabel', u1.f)
+    u1['11'].TextWrapped = true
+    u1['11'].BorderSizePixel = 0
+    u1['11'].TextSize = 17
+    u1['11'].TextScaled = true
+    u1['11'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u1['11'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+    u1['11'].TextColor3 = Color3.fromRGB(166, 166, 166)
+    u1['11'].BackgroundTransparency = 1
+    u1['11'].Size = UDim2.new(1, 0, 0.5122, 0)
+    u1['11'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u1['11'].Text = ''
+    u1['11'].Name = 'tabname'
+    u1['11'].Position = UDim2.new(0, 0, 0.2439, 0)
+    u1['12'] = Instance.new('UITextSizeConstraint', u1['11'])
+    u1['12'].MaxTextSize = 17
+    u1['13'] = Instance.new('Folder', u1['2'])
+    u1['13'].Name = 'tabs'
+
+    local function v5()
+        local __7 = u1['7']
+        local _TweenService = game:GetService('TweenService')
+        local u4 = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+
+        __7.Parent.chevron.MouseEnter:Connect(function()
+            _TweenService:Create(__7.Parent.chevron, u4, {
+                ImageColor3 = Color3.fromRGB(255, 255, 255),
+            }):Play()
+        end)
+        __7.Parent.chevron.MouseLeave:Connect(function()
+            _TweenService:Create(__7.Parent.chevron, u4, {
+                ImageColor3 = Color3.fromRGB(200, 200, 200),
+            }):Play()
+        end)
+        __7.Parent.chevron.trigger.MouseButton1Down:Connect(function()
+            if __7.Parent.Position ~= UDim2.new(0.5, 0, 0.77, 0) then
+                if __7.Parent.Position == UDim2.new(0.5, 0, 1.244, 0) then
+                    _TweenService:Create(__7.Parent, u4, {
+                        Position = UDim2.new(0.5, 0, 0.77, 0),
+                    }):Play()
+                    _TweenService:Create(__7.Parent.chevron, u4, {Rotation = 180}):Play()
+                end
+            else
+                _TweenService:Create(__7.Parent, u4, {
+                    Position = UDim2.new(0.5, 0, 1.244, 0),
+                }):Play()
+                _TweenService:Create(__7.Parent.chevron, u4, {Rotation = 0}):Play()
+            end
+        end)
+    end
+
+    task.spawn(v5)
+
+    return {}
+end
+function paradoxlibrary.tab(_, p6)
+    local v7 = {
+        name = p6.name,
+        image = p6.image,
+    }
+    local u8 = {
+        ['2'] = Instance.new('Frame', game.CoreGui.paradox.main.tabholder.layoutholder),
+    }
+
+    u8['2'].BorderSizePixel = 0
+    u8['2'].BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+    u8['2'].Size = UDim2.new(0, 100, 0, 100)
+    u8['2'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u8['2'].Name = v7.name
+    u8['2'].BackgroundTransparency = 0.6
+    u8['3'] = Instance.new('UICorner', u8['2'])
+    u8['3'].CornerRadius = UDim.new(0, 4)
+    u8['4'] = Instance.new('ImageLabel', u8['2'])
+    u8['4'].BorderSizePixel = 0
+    u8['4'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u8['4'].ImageColor3 = Color3.fromRGB(91, 91, 91)
+    u8['4'].AnchorPoint = Vector2.new(0.5, 0.5)
+    u8['4'].Image = v7.image
+    u8['4'].Size = UDim2.new(0.67393, 0, 0.65686, 0)
+    u8['4'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u8['4'].BackgroundTransparency = 1
+    u8['4'].Name = 'image'
+    u8['4'].Position = UDim2.new(0.5, 0, 0.5, 0)
+    u8['5'] = Instance.new('UIAspectRatioConstraint', u8['4'])
+    u8['6'] = Instance.new('TextButton', u8['2'])
+    u8['6'].BorderSizePixel = 0
+    u8['6'].TextColor3 = Color3.fromRGB(0, 0, 0)
+    u8['6'].TextSize = 14
+    u8['6'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u8['6'].FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    u8['6'].Size = UDim2.new(1, 0, 1, 0)
+    u8['6'].BackgroundTransparency = 1
+    u8['6'].Name = 'trigger'
+    u8['6'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u8['6'].Text = ''
+    u8['7'] = Instance.new('LocalScript', u8['2'])
+    u8['7'].Name = 'script'
+
+    local function v48()
+        local __72 = u8['7']
+        local _TweenService2 = game:GetService('TweenService')
+        local u11 = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+
+        __72.Parent.trigger.MouseButton1Down:Connect(function()
+            local v12, v13, v14 = pairs(__72.Parent.Parent:GetChildren())
+
+            while true do
+                local v15
+
+                v14, v15 = v12(v13, v14)
+
+                if v14 == nil then
+                    break
+                end
+                if v15.Name ~= 'UIAspectRatioConstraint' and v15.Name ~= 'UIGridLayout' then
+                    if v15.Name == __72.Parent.Name then
+                        _TweenService2:Create(v15, u11, {BackgroundTransparency = 0.1}):Play()
+                        _TweenService2:Create(v15.image, u11, {
+                            ImageColor3 = Color3.fromRGB(165, 165, 165),
+                        }):Play()
+
+                        local v16, v17, v18 = pairs(__72.Parent.Parent.Parent.Parent.tabs:GetChildren())
+
+                        while true do
+                            local v19
+
+                            v18, v19 = v16(v17, v18)
+
+                            if v18 == nil then
+                                break
+                            end
+                            if v19.Name == __72.Parent.Name then
+                                v19.Interactable = true
+                                v19.ScrollBarThickness = 2
+                            end
+                        end
+
+                        if __72.Parent.Parent.Parent.Parent.tabnameholder.tabname.Text ~= __72.Parent.Name then
+                            __72.Parent.Parent.Parent.Parent.tabnameholder.tabname.TextTransparency = 1
+                            __72.Parent.Parent.Parent.Parent.tabnameholder.tabname.Text = __72.Parent.Name
+
+                            _TweenService2:Create(__72.Parent.Parent.Parent.Parent.tabnameholder.tabname, u11, {TextTransparency = 0}):Play()
+                        end
+
+                        local v20, v21, v22 = pairs(__72.Parent.Parent.Parent.Parent.tabs[__72.Parent.Name].layoutholder:GetChildren())
+
+                        while true do
+                            local v23
+
+                            v22, v23 = v20(v21, v22)
+
+                            if v22 == nil then
+                                break
+                            end
+                            if not (v23:IsA('UIAspectRatioConstraint') or v23:IsA('UIListLayout')) then
+                                _TweenService2:Create(v23, u11, {BackgroundTransparency = 0.4}):Play()
+                            end
+                        end
+
+                        local v24, v25, v26 = pairs(__72.Parent.Parent.Parent.Parent.tabs[__72.Parent.Name].layoutholder:GetDescendants())
+
+                        while true do
+                            local v27
+
+                            v26, v27 = v24(v25, v26)
+
+                            if v26 == nil then
+                                break
+                            end
+                            if v27.Name ~= 'title' then
+                                if v27.Name ~= 'description' then
+                                    if v27.Name ~= 'image' or v27.Parent.Name == 'toggle' then
+                                        if v27.Name ~= 'image' or v27.Parent.Name ~= 'toggle' then
+                                            if v27.Name ~= 'toggle' then
+                                                if v27.Name ~= 'slider' then
+                                                    if v27.Name ~= 'fill' or v27.Parent.Name ~= 'slider' then
+                                                        if v27.Name ~= 'value' or v27.Parent.Name ~= 'slider' then
+                                                            if v27.Name ~= 'box' or not v27:IsA('TextBox') then
+                                                                if v27.Name == 'message' and v27:IsA('TextLabel') then
+                                                                    _TweenService2:Create(v27, u11, {TextTransparency = 0}):Play()
+                                                                end
+                                                            else
+                                                                _TweenService2:Create(v27, u11, {BackgroundTransparency = 0.1}):Play()
+                                                                _TweenService2:Create(v27, u11, {TextTransparency = 0}):Play()
+                                                            end
+                                                        else
+                                                            _TweenService2:Create(v27, u11, {TextTransparency = 0}):Play()
+                                                        end
+                                                    else
+                                                        _TweenService2:Create(v27, u11, {BackgroundTransparency = 0.1}):Play()
+                                                    end
+                                                else
+                                                    _TweenService2:Create(v27, u11, {BackgroundTransparency = 0.1}):Play()
+                                                end
+                                            else
+                                                _TweenService2:Create(v27, u11, {BackgroundTransparency = 0.1}):Play()
+                                            end
+                                        elseif v27.Parent.toggled.Value ~= false then
+                                            _TweenService2:Create(v27, u11, {ImageTransparency = 0}):Play()
+                                        else
+                                            _TweenService2:Create(v27, u11, {ImageTransparency = 1}):Play()
+                                        end
+                                    else
+                                        _TweenService2:Create(v27, u11, {ImageTransparency = 0}):Play()
+                                    end
+                                else
+                                    _TweenService2:Create(v27, u11, {TextTransparency = 0}):Play()
+                                end
+                            else
+                                _TweenService2:Create(v27, u11, {TextTransparency = 0}):Play()
+                            end
+                        end
+                    else
+                        _TweenService2:Create(v15, u11, {BackgroundTransparency = 0.6}):Play()
+                        _TweenService2:Create(v15.image, u11, {
+                            ImageColor3 = Color3.fromRGB(90, 90, 90),
+                        }):Play()
+
+                        local v28, v29, v30 = pairs(__72.Parent.Parent.Parent.Parent.tabs:GetChildren())
+
+                        while true do
+                            local v31
+
+                            v30, v31 = v28(v29, v30)
+
+                            if v30 == nil then
+                                break
+                            end
+                            if v31.Name ~= __72.Parent.Name then
+                                v31.Interactable = false
+                                v31.ScrollBarThickness = 0
+                            end
+                        end
+
+                        local v32, v33, v34 = pairs(__72.Parent.Parent.Parent.Parent.tabs:GetChildren())
+
+                        while true do
+                            local v35
+
+                            v34, v35 = v32(v33, v34)
+
+                            if v34 == nil then
+                                break
+                            end
+                            if v35.Name ~= __72.Parent.Name then
+                                local v36, v37, v38 = pairs(v35.layoutholder:GetChildren())
+
+                                while true do
+                                    local v39
+
+                                    v38, v39 = v36(v37, v38)
+
+                                    if v38 == nil then
+                                        break
+                                    end
+                                    if not (v39:IsA('UIAspectRatioConstraint') or v39:IsA('UIListLayout')) then
+                                        _TweenService2:Create(v39, u11, {BackgroundTransparency = 1}):Play()
+                                    end
+                                end
+                            end
+                        end
+
+                        local v40, v41, v42 = pairs(__72.Parent.Parent.Parent.Parent.tabs:GetChildren())
+
+                        while true do
+                            local v43
+
+                            v42, v43 = v40(v41, v42)
+
+                            if v42 == nil then
+                                break
+                            end
+                            if v43.Name ~= __72.Parent.Name then
+                                local v44, v45, v46 = pairs(v43.layoutholder:GetDescendants())
+
+                                while true do
+                                    local v47
+
+                                    v46, v47 = v44(v45, v46)
+
+                                    if v46 == nil then
+                                        break
+                                    end
+                                    if v47.Name ~= 'title' then
+                                        if v47.Name ~= 'description' then
+                                            if v47.Name ~= 'image' or v47.Parent.Name == 'toggle' then
+                                                if v47.Name ~= 'image' or v47.Parent.Name ~= 'toggle' then
+                                                    if v47.Name ~= 'toggle' then
+                                                        if v47.Name ~= 'slider' then
+                                                            if v47.Name ~= 'fill' or v47.Parent.Name ~= 'slider' then
+                                                                if v47.Name ~= 'value' or v47.Parent.Name ~= 'slider' then
+                                                                    if v47.Name ~= 'box' or not v47:IsA('TextBox') then
+                                                                        if v47.Name == 'message' and v47:IsA('TextLabel') then
+                                                                            _TweenService2:Create(v47, u11, {TextTransparency = 1}):Play()
+                                                                        end
+                                                                    else
+                                                                        _TweenService2:Create(v47, u11, {BackgroundTransparency = 1}):Play()
+                                                                        _TweenService2:Create(v47, u11, {TextTransparency = 1}):Play()
+                                                                    end
+                                                                else
+                                                                    _TweenService2:Create(v47, u11, {TextTransparency = 1}):Play()
+                                                                end
+                                                            else
+                                                                _TweenService2:Create(v47, u11, {BackgroundTransparency = 1}):Play()
+                                                            end
+                                                        else
+                                                            _TweenService2:Create(v47, u11, {BackgroundTransparency = 1}):Play()
+                                                        end
+                                                    else
+                                                        _TweenService2:Create(v47, u11, {BackgroundTransparency = 1}):Play()
+                                                    end
+                                                elseif v47.Parent.toggled.Value ~= false then
+                                                    _TweenService2:Create(v47, u11, {ImageTransparency = 1}):Play()
+                                                else
+                                                    _TweenService2:Create(v47, u11, {ImageTransparency = 1}):Play()
+                                                end
+                                            else
+                                                _TweenService2:Create(v47, u11, {ImageTransparency = 1}):Play()
+                                            end
+                                        else
+                                            _TweenService2:Create(v47, u11, {TextTransparency = 1}):Play()
+                                        end
+                                    else
+                                        _TweenService2:Create(v47, u11, {TextTransparency = 1}):Play()
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end)
+    end
+
+    task.spawn(v48)
+
+    u8['8'] = Instance.new('ScrollingFrame', game.CoreGui.paradox.main.tabs)
+    u8['8'].Active = true
+    u8['8'].Interactable = false
+    u8['8'].BorderSizePixel = 0
+    u8['8'].CanvasSize = UDim2.new(0, 0, 8, 0)
+    u8['8'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u8['8'].Name = v7.name
+    u8['8'].Size = UDim2.new(0.94366, 0, 0.63325, 0)
+    u8['8'].ScrollBarImageColor3 = Color3.fromRGB(91, 91, 91)
+    u8['8'].Position = UDim2.new(0.02817, 0, 0.1504, 0)
+    u8['8'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u8['8'].ScrollBarThickness = 2
+    u8['8'].BackgroundTransparency = 1
+    u8['9'] = Instance.new('Frame', u8['8'])
+    u8['9'].BorderSizePixel = 0
+    u8['9'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u8['9'].Size = UDim2.new(0.944, 0, 0.633, 0)
+    u8['9'].Position = UDim2.new(0.03881, 0, 0, 0)
+    u8['9'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u8['9'].Name = 'layoutholder'
+    u8['9'].BackgroundTransparency = 1
+    u8['10'] = Instance.new('UIListLayout', u8['9'])
+    u8['10'].Padding = UDim.new(0, 5)
+    u8['10'].SortOrder = Enum.SortOrder.LayoutOrder
+    u8['11'] = Instance.new('UIAspectRatioConstraint', u8['9'])
+    u8['11'].AspectRatio = 0.16477
+    u8['12'] = Instance.new('UIAspectRatioConstraint', u8['8'])
+    u8['12'].AspectRatio = 1.39583
+
+    return v7
+end
+function paradoxlibrary.corebutton(_, p49)
+    local u50 = {
+        name = p49.name,
+        callback = p49.callback,
+    }
+    local u51 = {
+        ['2'] = Instance.new('Frame', game.CoreGui.paradox),
+    }
+
+    u51['2'].BorderSizePixel = 0
+    u51['2'].BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+    u51['2'].Size = UDim2.new(0.11487, 0, 0.06766, 0)
+    u51['2'].Position = UDim2.new(0.00488, 0, 0.00628, 0)
+    u51['2'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u51['2'].Name = u50.name
+    u51['2'].BackgroundTransparency = 0.2
+    u51['3'] = Instance.new('UICorner', u51['2'])
+    u51['3'].CornerRadius = UDim.new(0, 5)
+    u51['4'] = Instance.new('TextLabel', u51['2'])
+    u51['4'].TextWrapped = true
+    u51['4'].BorderSizePixel = 0
+    u51['4'].TextSize = 14
+    u51['4'].TextScaled = true
+    u51['4'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u51['4'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+    u51['4'].TextColor3 = Color3.fromRGB(166, 166, 166)
+    u51['4'].BackgroundTransparency = 1
+    u51['4'].Size = UDim2.new(1, 0, 0.41931, 0)
+    u51['4'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u51['4'].Text = u50.name
+    u51['4'].Name = 'title'
+    u51['4'].Position = UDim2.new(0, 0, 0, 0)
+    u51['5'] = Instance.new('UITextSizeConstraint', u51['4'])
+    u51['5'].MaxTextSize = 14
+    u51['6'] = Instance.new('Frame', u51['2'])
+    u51['6'].BorderSizePixel = 0
+    u51['6'].BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+    u51['6'].Size = UDim2.new(0.21233, 0, 0.46417, 0)
+    u51['6'].Position = UDim2.new(0.38096, 0, 0.41931, 0)
+    u51['6'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u51['6'].Name = 'toggle'
+    u51['7'] = Instance.new('ImageLabel', u51['6'])
+    u51['7'].BorderSizePixel = 0
+    u51['7'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u51['7'].ImageColor3 = Color3.fromRGB(166, 166, 166)
+    u51['7'].AnchorPoint = Vector2.new(0.5, 0.5)
+    u51['7'].Image = 'rbxassetid://10709790644'
+    u51['7'].Size = UDim2.new(0.83679, 0, 0.8336, 0)
+    u51['7'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u51['7'].BackgroundTransparency = 1
+    u51['7'].Name = 'image'
+    u51['7'].Position = UDim2.new(0.5, 0, 0.5, 0)
+    u51['8'] = Instance.new('UIAspectRatioConstraint', u51['7'])
+    u51['8'].AspectRatio = 1.00382
+    u51['9'] = Instance.new('UICorner', u51['6'])
+    u51['9'].CornerRadius = UDim.new(0, 5)
+    u51.a = Instance.new('TextButton', u51['6'])
+    u51.a.BorderSizePixel = 0
+    u51.a.TextColor3 = Color3.fromRGB(0, 0, 0)
+    u51.a.TextSize = 14
+    u51.a.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u51.a.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    u51.a.Size = UDim2.new(1, 0, 1, 0)
+    u51.a.BackgroundTransparency = 1
+    u51.a.Name = 'trigger'
+    u51.a.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u51.a.Text = ''
+    u51.b = Instance.new('LocalScript', u51['6'])
+    u51.b.Name = 'script'
+    u51.c = Instance.new('BoolValue', u51['6'])
+    u51.c.Name = 'toggled'
+    u51.d = Instance.new('UIAspectRatioConstraint', u51['6'])
+    u51.e = Instance.new('UIAspectRatioConstraint', u51['2'])
+    u51.e.AspectRatio = 2.18606
+
+    local function v56()
+        local _b = u51.b
+        local _TweenService3 = game:GetService('TweenService')
+        local u54 = TweenInfo.new(0.3, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+        local u55 = false
+
+        _b.Parent.trigger.MouseButton1Down:Connect(function()
+            u55 = not u55
+
+            if _b.Parent.image.ImageTransparency ~= 0 then
+                if _b.Parent.image.ImageTransparency == 1 then
+                    _TweenService3:Create(_b.Parent.image, u54, {ImageTransparency = 0}):Play()
+
+                    _b.Parent.toggled.Value = true
+                end
+            else
+                _TweenService3:Create(_b.Parent.image, u54, {ImageTransparency = 1}):Play()
+
+                _b.Parent.toggled.Value = false
+            end
+
+            u50.callback(u55)
+        end)
+    end
+
+    task.spawn(v56)
+
+    return u50
+end
+function paradoxlibrary.button(_, p57)
+    local u58 = {
+        name = p57.name,
+        description = p57.description,
+        parent = p57.parent,
+        callback = p57.callback,
+    }
+    local u59 = {
+        ['2'] = Instance.new('Frame', game.CoreGui.paradox.main.tabs[u58.parent].layoutholder),
+    }
+
+    u59['2'].BorderSizePixel = 0
+    u59['2'].BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+    u59['2'].Size = UDim2.new(0.97394, 0, 0.02746, 0)
+    u59['2'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u59['2'].Name = u58.name
+    u59['2'].BackgroundTransparency = 1
+    u59['3'] = Instance.new('UICorner', u59['2'])
+    u59['3'].CornerRadius = UDim.new(0, 5)
+    u59['4'] = Instance.new('UIAspectRatioConstraint', u59['2'])
+    u59['4'].AspectRatio = 5.84364
+    u59['5'] = Instance.new('TextLabel', u59['2'])
+    u59['5'].TextWrapped = true
+    u59['5'].BorderSizePixel = 0
+    u59['5'].TextSize = 14
+    u59['5'].TextXAlignment = Enum.TextXAlignment.Left
+    u59['5'].TextTransparency = 1
+    u59['5'].TextYAlignment = Enum.TextYAlignment.Top
+    u59['5'].TextScaled = true
+    u59['5'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u59['5'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+    u59['5'].TextColor3 = Color3.fromRGB(166, 166, 166)
+    u59['5'].BackgroundTransparency = 1
+    u59['5'].Size = UDim2.new(0.977, 0, 0.277, 0)
+    u59['5'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u59['5'].Text = u58.name
+    u59['5'].Name = 'title'
+    u59['5'].Position = UDim2.new(0.023, 0, 0.183, 0)
+    u59['6'] = Instance.new('UITextSizeConstraint', u59['5'])
+    u59['6'].MaxTextSize = 16
+    u59['7'] = Instance.new('TextLabel', u59['2'])
+    u59['7'].TextWrapped = true
+    u59['7'].BorderSizePixel = 0
+    u59['7'].TextSize = 13
+    u59['7'].TextXAlignment = Enum.TextXAlignment.Left
+    u59['7'].TextTransparency = 1
+    u59['7'].TextScaled = true
+    u59['7'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u59['7'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+    u59['7'].TextColor3 = Color3.fromRGB(96, 96, 96)
+    u59['7'].BackgroundTransparency = 1
+    u59['7'].Size = UDim2.new(0.977, 0, 0.277, 0)
+    u59['7'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u59['7'].Text = u58.description
+    u59['7'].Name = 'description'
+    u59['7'].Position = UDim2.new(0.023, 0, 0.59, 0)
+    u59['8'] = Instance.new('UITextSizeConstraint', u59['7'])
+    u59['8'].MaxTextSize = 16
+    u59['9'] = Instance.new('ImageLabel', u59['2'])
+    u59['9'].BorderSizePixel = 0
+    u59['9'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u59['9'].ImageTransparency = 1
+    u59['9'].ImageColor3 = Color3.fromRGB(166, 166, 166)
+    u59['9'].Image = 'rbxassetid://10734898194'
+    u59['9'].Size = UDim2.new(0.0974, 0, 0.56919, 0)
+    u59['9'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u59['9'].BackgroundTransparency = 1
+    u59['9'].Name = 'image'
+    u59['9'].Position = UDim2.new(0.87013, 0, 0.2087, 0)
+    u59.a = Instance.new('UIAspectRatioConstraint', u59['9'])
+    u59.b = Instance.new('LocalScript', u59['2'])
+    u59.b.Name = 'script'
+    u59.c = Instance.new('TextButton', u59['2'])
+    u59.c.BorderSizePixel = 0
+    u59.c.TextColor3 = Color3.fromRGB(0, 0, 0)
+    u59.c.TextSize = 14
+    u59.c.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u59.c.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    u59.c.Size = UDim2.new(1, 0, 1, 0)
+    u59.c.BackgroundTransparency = 1
+    u59.c.Name = 'trigger'
+    u59.c.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u59.c.Text = ''
+
+    local function v63()
+        local _b2 = u59.b
+        local _TweenService4 = game:GetService('TweenService')
+        local u62 = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+
+        _b2.Parent.MouseEnter:Connect(function()
+            _TweenService4:Create(_b2.Parent, u62, {BackgroundTransparency = 0}):Play()
+        end)
+        _b2.Parent.MouseLeave:Connect(function()
+            _TweenService4:Create(_b2.Parent, u62, {BackgroundTransparency = 0.4}):Play()
+        end)
+        _b2.Parent.trigger.MouseButton1Down:Connect(function()
+            _TweenService4:Create(_b2.Parent, u62, {BackgroundTransparency = 0}):Play()
+            _TweenService4:Create(_b2.Parent.title, u62, {
+                TextColor3 = Color3.fromRGB(255, 255, 255),
+            }):Play()
+            _TweenService4:Create(_b2.Parent.image, u62, {
+                ImageColor3 = Color3.fromRGB(255, 255, 255),
+            }):Play()
+            wait(0.1)
+            _TweenService4:Create(_b2.Parent, u62, {BackgroundTransparency = 0.4}):Play()
+            _TweenService4:Create(_b2.Parent.title, u62, {
+                TextColor3 = Color3.fromRGB(165, 165, 165),
+            }):Play()
+            _TweenService4:Create(_b2.Parent.image, u62, {
+                ImageColor3 = Color3.fromRGB(165, 165, 165),
+            }):Play()
+            u58.callback()
+        end)
+    end
+
+    task.spawn(v63)
+
+    return u58
+end
+function paradoxlibrary.toggle(_, p64)
+    local u65 = {
+        name = p64.name,
+        description = p64.description,
+        parent = p64.parent,
+        callback = p64.callback,
+    }
+    local u66 = {
+        ['2'] = Instance.new('Frame', game.CoreGui.paradox.main.tabs[u65.parent].layoutholder),
+    }
+
+    u66['2'].BorderSizePixel = 0
+    u66['2'].BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+    u66['2'].Size = UDim2.new(0.97394, 0, 0.02746, 0)
+    u66['2'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u66['2'].Name = u65.name
+    u66['2'].BackgroundTransparency = 1
+    u66['3'] = Instance.new('UICorner', u66['2'])
+    u66['3'].CornerRadius = UDim.new(0, 5)
+    u66['4'] = Instance.new('UIAspectRatioConstraint', u66['2'])
+    u66['4'].AspectRatio = 5.84364
+    u66['5'] = Instance.new('TextLabel', u66['2'])
+    u66['5'].TextWrapped = true
+    u66['5'].BorderSizePixel = 0
+    u66['5'].TextSize = 14
+    u66['5'].TextXAlignment = Enum.TextXAlignment.Left
+    u66['5'].TextTransparency = 1
+    u66['5'].TextScaled = true
+    u66['5'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u66['5'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+    u66['5'].TextColor3 = Color3.fromRGB(166, 166, 166)
+    u66['5'].BackgroundTransparency = 1
+    u66['5'].Size = UDim2.new(0.977, 0, 0.277, 0)
+    u66['5'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u66['5'].Text = u65.name
+    u66['5'].Name = 'title'
+    u66['5'].Position = UDim2.new(0.023, 0, 0.183, 0)
+    u66['6'] = Instance.new('UITextSizeConstraint', u66['5'])
+    u66['6'].MaxTextSize = 16
+    u66['7'] = Instance.new('TextLabel', u66['2'])
+    u66['7'].TextWrapped = true
+    u66['7'].BorderSizePixel = 0
+    u66['7'].TextSize = 13
+    u66['7'].TextXAlignment = Enum.TextXAlignment.Left
+    u66['7'].TextTransparency = 1
+    u66['7'].TextScaled = true
+    u66['7'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u66['7'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+    u66['7'].TextColor3 = Color3.fromRGB(96, 96, 96)
+    u66['7'].BackgroundTransparency = 1
+    u66['7'].Size = UDim2.new(0.977, 0, 0.277, 0)
+    u66['7'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u66['7'].Text = u65.description
+    u66['7'].Name = 'description'
+    u66['7'].Position = UDim2.new(0.023, 0, 0.59, 0)
+    u66['8'] = Instance.new('UITextSizeConstraint', u66['7'])
+    u66['8'].MaxTextSize = 16
+    u66['9'] = Instance.new('Frame', u66['2'])
+    u66['9'].BorderSizePixel = 0
+    u66['9'].BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+    u66['9'].Size = UDim2.new(0.097, 0, 0.569, 0)
+    u66['9'].Position = UDim2.new(0.87, 0, 0.209, 0)
+    u66['9'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u66['9'].Name = 'toggle'
+    u66['9'].BackgroundTransparency = 1
+    u66.a = Instance.new('ImageLabel', u66['9'])
+    u66.a.BorderSizePixel = 0
+    u66.a.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u66.a.ImageTransparency = 1
+    u66.a.ImageColor3 = Color3.fromRGB(166, 166, 166)
+    u66.a.AnchorPoint = Vector2.new(0.5, 0.5)
+    u66.a.Image = 'rbxassetid://10709790644'
+    u66.a.Size = UDim2.new(0.83679, 0, 0.8336, 0)
+    u66.a.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u66.a.BackgroundTransparency = 1
+    u66.a.Name = 'image'
+    u66.a.Position = UDim2.new(0.5, 0, 0.5, 0)
+    u66.b = Instance.new('UIAspectRatioConstraint', u66.a)
+    u66.c = Instance.new('UICorner', u66['9'])
+    u66.c.CornerRadius = UDim.new(0, 5)
+    u66.d = Instance.new('UIAspectRatioConstraint', u66['9'])
+    u66.d.AspectRatio = 0.99619
+    u66.e = Instance.new('TextButton', u66['9'])
+    u66.e.BorderSizePixel = 0
+    u66.e.TextColor3 = Color3.fromRGB(0, 0, 0)
+    u66.e.TextSize = 14
+    u66.e.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u66.e.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    u66.e.Size = UDim2.new(1, 0, 1, 0)
+    u66.e.BackgroundTransparency = 1
+    u66.e.Name = 'trigger'
+    u66.e.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u66.e.Text = ''
+    u66.f = Instance.new('LocalScript', u66['9'])
+    u66.f.Name = 'script'
+    u66['10'] = Instance.new('BoolValue', u66['9'])
+    u66['10'].Name = 'toggled'
+    u66['11'] = Instance.new('LocalScript', u66['2'])
+    u66['11'].Name = 'script'
+
+    local function v71()
+        local _f = u66.f
+        local _TweenService5 = game:GetService('TweenService')
+        local u69 = TweenInfo.new(0.3, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+        local u70 = false
+
+        _f.Parent.trigger.MouseButton1Down:Connect(function()
+            u70 = not u70
+
+            if _f.Parent.image.ImageTransparency ~= 0 then
+                if _f.Parent.image.ImageTransparency == 1 then
+                    _TweenService5:Create(_f.Parent.image, u69, {ImageTransparency = 0}):Play()
+
+                    _f.Parent.toggled.Value = true
+                end
+            else
+                _TweenService5:Create(_f.Parent.image, u69, {ImageTransparency = 1}):Play()
+
+                _f.Parent.toggled.Value = false
+            end
+
+            u65.callback(u70)
+        end)
+    end
+
+    task.spawn(v71)
+
+    local function v75()
+        local __11 = u66['11']
+        local _TweenService6 = game:GetService('TweenService')
+        local u74 = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+
+        __11.Parent.MouseEnter:Connect(function()
+            _TweenService6:Create(__11.Parent, u74, {BackgroundTransparency = 0}):Play()
+        end)
+        __11.Parent.MouseLeave:Connect(function()
+            _TweenService6:Create(__11.Parent, u74, {BackgroundTransparency = 0.4}):Play()
+        end)
+    end
+
+    task.spawn(v75)
+
+    return u65
+end
+function paradoxlibrary.slider(_, p76)
+    local u77 = {
+        name = p76.name,
+        starting = p76.starting,
+        max = p76.max,
+        min = p76.min,
+        parent = p76.parent,
+        callback = p76.callback,
+    }
+    local u78 = {
+        ['2'] = Instance.new('Frame', game.CoreGui.paradox.main.tabs[u77.parent].layoutholder),
+    }
+
+    u78['2'].BorderSizePixel = 0
+    u78['2'].BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+    u78['2'].Size = UDim2.new(0.97394, 0, 0.02746, 0)
+    u78['2'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u78['2'].Name = u77.name
+    u78['2'].BackgroundTransparency = 1
+    u78['3'] = Instance.new('UICorner', u78['2'])
+    u78['3'].CornerRadius = UDim.new(0, 5)
+    u78['4'] = Instance.new('UIAspectRatioConstraint', u78['2'])
+    u78['4'].AspectRatio = 5.84364
+    u78['5'] = Instance.new('LocalScript', u78['2'])
+    u78['5'].Name = 'script'
+    u78['6'] = Instance.new('Frame', u78['2'])
+    u78['6'].BorderSizePixel = 0
+    u78['6'].BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+    u78['6'].Size = UDim2.new(0.94453, 0, 0.18973, 0)
+    u78['6'].Position = UDim2.new(0.023, 0, 0.60713, 0)
+    u78['6'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u78['6'].Name = 'slider'
+    u78['6'].BackgroundTransparency = 1
+    u78['7'] = Instance.new('UICorner', u78['6'])
+    u78['7'].CornerRadius = UDim.new(1, 0)
+    u78['8'] = Instance.new('Frame', u78['6'])
+    u78['8'].BorderSizePixel = 0
+    u78['8'].BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+    u78['8'].Size = UDim2.new(0, 0, 0.9, 0)
+    u78['8'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u78['8'].Name = 'fill'
+    u78['8'].BackgroundTransparency = 1
+    u78['9'] = Instance.new('UICorner', u78['8'])
+    u78['9'].CornerRadius = UDim.new(1, 0)
+    u78.a = Instance.new('NumberValue', u78['6'])
+    u78.a.Name = 'output'
+    u78.b = Instance.new('TextButton', u78['6'])
+    u78.b.BorderSizePixel = 0
+    u78.b.TextColor3 = Color3.fromRGB(0, 0, 0)
+    u78.b.TextSize = 14
+    u78.b.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u78.b.FontFace = Font.new('rbxasset://fonts/families/SourceSansPro.json', Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+    u78.b.Size = UDim2.new(1, 0, 1, 0)
+    u78.b.BackgroundTransparency = 1
+    u78.b.Name = 'trigger'
+    u78.b.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u78.b.Text = ''
+    u78.c = Instance.new('TextLabel', u78['6'])
+    u78.c.TextWrapped = true
+    u78.c.BorderSizePixel = 0
+    u78.c.TextSize = 14
+    u78.c.TextXAlignment = Enum.TextXAlignment.Right
+    u78.c.TextTransparency = 1
+    u78.c.TextScaled = true
+    u78.c.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u78.c.FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+    u78.c.TextColor3 = Color3.fromRGB(166, 166, 166)
+    u78.c.BackgroundTransparency = 1
+    u78.c.Size = UDim2.new(0.10256, 0, 1.63545, 0)
+    u78.c.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u78.c.Text = '0%'
+    u78.c.Name = 'value'
+    u78.c.Position = UDim2.new(0.89688, 0, -2.23546, 0)
+    u78.d = Instance.new('UITextSizeConstraint', u78.c)
+    u78.d.MaxTextSize = 14
+    u78.e = Instance.new('UIAspectRatioConstraint', u78['6'])
+    u78.e.AspectRatio = 29.0916
+    u78.f = Instance.new('LocalScript', u78['6'])
+    u78.f.Name = 'script'
+    u78['10'] = Instance.new('TextLabel', u78['2'])
+    u78['10'].TextWrapped = true
+    u78['10'].BorderSizePixel = 0
+    u78['10'].TextSize = 14
+    u78['10'].TextXAlignment = Enum.TextXAlignment.Left
+    u78['10'].TextTransparency = 1
+    u78['10'].TextScaled = true
+    u78['10'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u78['10'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+    u78['10'].TextColor3 = Color3.fromRGB(166, 166, 166)
+    u78['10'].BackgroundTransparency = 1
+    u78['10'].Size = UDim2.new(0.66776, 0, 0.277, 0)
+    u78['10'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u78['10'].Text = u77.name
+    u78['10'].Name = 'title'
+    u78['10'].Position = UDim2.new(0.023, 0, 0.183, 0)
+    u78['11'] = Instance.new('UITextSizeConstraint', u78['10'])
+    u78['11'].MaxTextSize = 16
+
+    local function v82()
+        local __5 = u78['5']
+        local _TweenService7 = game:GetService('TweenService')
+        local u81 = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+
+        __5.Parent.MouseEnter:Connect(function()
+            _TweenService7:Create(__5.Parent, u81, {BackgroundTransparency = 0}):Play()
+        end)
+        __5.Parent.MouseLeave:Connect(function()
+            _TweenService7:Create(__5.Parent, u81, {BackgroundTransparency = 0.4}):Play()
+        end)
+    end
+
+    task.spawn(v82)
+
+    local function v99()
+        local _f2 = u78.f
+        local u84 = game.Players.LocalPlayer:GetMouse()
+        local _Parent = _f2.Parent
+        local _trigger = _f2.Parent.trigger
+        local _fill = _f2.Parent.fill
+        local _value = _f2.Parent.value
+        local _output = _f2.Parent.output
+        local _max = u77.max
+        local _min = u77.min
+
+        _fill.Size = UDim2.fromScale(_output.Value, 1)
+        _value.Text = tostring(math.round(_output.Value * 100))
+
+        local _TweenService8 = game:GetService('TweenService')
+        local u93 = TweenInfo.new(0.5, Enum.EasingStyle.Cubic)
+
+        local function u95()
+            local v94 = math.clamp(((Vector2.new(u84.X, u84.Y) - _Parent.AbsolutePosition) / _Parent.AbsoluteSize).X, 0, 1)
+
+            if _min + v94 * (_max - _min) ~= _output.Value then
+                _TweenService8:Create(_fill, u93, {
+                    Size = UDim2.fromScale(v94, 1),
+                }):Play()
+            end
+
+            _output.Value = _min + v94 * (_max - _min)
+            _value.Text = tostring(math.round(_output.Value * 100)) .. '%'
+
+            u77.callback(tostring(math.round(_output.Value * 100)))
+        end
+
+        local u96 = false
+
+        local function v97()
+            u96 = true
+
+            while u96 do
+                u95()
+                task.wait()
+            end
+        end
+
+        _trigger.MouseButton1Down:Connect(v97)
+        game:GetService('UserInputService').InputEnded:Connect(function(p98)
+            if p98.UserInputType == Enum.UserInputType.MouseButton1 or p98.UserInputType == Enum.UserInputType.Touch then
+                u96 = false
+            end
+        end)
+
+        _f2.Parent.value.Text = u77.starting .. '%'
+    end
+
+    task.spawn(v99)
+
+    return u77
+end
+function paradoxlibrary.textbox(_, p100)
+    local u101 = {
+        name = p100.name,
+        description = p100.description,
+        parent = p100.parent,
+        callback = p100.callback,
+    }
+    local u102 = {
+        ['2'] = Instance.new('Frame', game.CoreGui.paradox.main.tabs[u101.parent].layoutholder),
+    }
+
+    u102['2'].BorderSizePixel = 0
+    u102['2'].BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+    u102['2'].Size = UDim2.new(0.97394, 0, 0.02746, 0)
+    u102['2'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u102['2'].Name = u101.name
+    u102['2'].BackgroundTransparency = 1
+    u102['3'] = Instance.new('UICorner', u102['2'])
+    u102['3'].CornerRadius = UDim.new(0, 5)
+    u102['4'] = Instance.new('UIAspectRatioConstraint', u102['2'])
+    u102['4'].AspectRatio = 5.84364
+    u102['5'] = Instance.new('TextLabel', u102['2'])
+    u102['5'].TextWrapped = true
+    u102['5'].BorderSizePixel = 0
+    u102['5'].TextSize = 14
+    u102['5'].TextXAlignment = Enum.TextXAlignment.Left
+    u102['5'].TextTransparency = 1
+    u102['5'].TextScaled = true
+    u102['5'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u102['5'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+    u102['5'].TextColor3 = Color3.fromRGB(166, 166, 166)
+    u102['5'].BackgroundTransparency = 1
+    u102['5'].Size = UDim2.new(0.977, 0, 0.277, 0)
+    u102['5'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u102['5'].Text = u101.name
+    u102['5'].Name = 'title'
+    u102['5'].Position = UDim2.new(0.023, 0, 0.183, 0)
+    u102['6'] = Instance.new('UITextSizeConstraint', u102['5'])
+    u102['6'].MaxTextSize = 16
+    u102['7'] = Instance.new('TextLabel', u102['2'])
+    u102['7'].TextWrapped = true
+    u102['7'].BorderSizePixel = 0
+    u102['7'].TextSize = 13
+    u102['7'].TextXAlignment = Enum.TextXAlignment.Left
+    u102['7'].TextTransparency = 1
+    u102['7'].TextScaled = true
+    u102['7'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u102['7'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+    u102['7'].TextColor3 = Color3.fromRGB(96, 96, 96)
+    u102['7'].BackgroundTransparency = 1
+    u102['7'].Size = UDim2.new(0.977, 0, 0.277, 0)
+    u102['7'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u102['7'].Text = u101.description
+    u102['7'].Name = 'description'
+    u102['7'].Position = UDim2.new(0.023, 0, 0.59, 0)
+    u102['8'] = Instance.new('UITextSizeConstraint', u102['7'])
+    u102['8'].MaxTextSize = 16
+    u102['9'] = Instance.new('LocalScript', u102['2'])
+    u102['9'].Name = 'script'
+    u102.a = Instance.new('TextBox', u102['2'])
+    u102.a.Name = 'box'
+    u102.a.BorderSizePixel = 0
+    u102.a.TextWrapped = true
+    u102.a.TextTransparency = 1
+    u102.a.TextSize = 14
+    u102.a.TextColor3 = Color3.fromRGB(166, 166, 166)
+    u102.a.TextScaled = true
+    u102.a.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+    u102.a.RichText = true
+    u102.a.FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+    u102.a.Size = UDim2.new(0.24635, 0, 0.569, 0)
+    u102.a.Position = UDim2.new(0.72065, 0, 0.209, 0)
+    u102.a.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u102.a.Text = ''
+    u102.a.BackgroundTransparency = 1
+    u102.b = Instance.new('UICorner', u102.a)
+    u102.b.CornerRadius = UDim.new(0, 5)
+    u102.c = Instance.new('UIAspectRatioConstraint', u102.a)
+    u102.c.AspectRatio = 2.53003
+
+    local function v106()
+        local __9 = u102['9']
+        local _TweenService9 = game:GetService('TweenService')
+        local u105 = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+
+        __9.Parent.MouseEnter:Connect(function()
+            _TweenService9:Create(__9.Parent, u105, {BackgroundTransparency = 0}):Play()
+        end)
+        __9.Parent.MouseLeave:Connect(function()
+            _TweenService9:Create(__9.Parent, u105, {BackgroundTransparency = 0.4}):Play()
+        end)
+        __9.Parent.box.FocusLost:Connect(function()
+            u101.callback(__9.Parent.box.text)
+        end)
+    end
+
+    task.spawn(v106)
+
+    return u101
+end
+function paradoxlibrary.label(_, p107)
+    local v108 = {
+        name = p107.name,
+        message = p107.message,
+        parent = p107.parent,
+        color = p107.color,
+    }
+    local u109 = {
+        ['2'] = Instance.new('Frame', game.CoreGui.paradox.main.tabs[v108.parent].layoutholder),
+    }
+
+    u109['2'].BorderSizePixel = 0
+    u109['2'].BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+    u109['2'].Size = UDim2.new(0.97394, 0, 0.02746, 0)
+    u109['2'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u109['2'].Name = v108.name
+    u109['2'].BackgroundTransparency = 1
+    u109['3'] = Instance.new('UICorner', u109['2'])
+    u109['3'].CornerRadius = UDim.new(0, 5)
+    u109['4'] = Instance.new('UIAspectRatioConstraint', u109['2'])
+    u109['4'].AspectRatio = 5.84364
+    u109['5'] = Instance.new('TextLabel', u109['2'])
+    u109['5'].TextWrapped = true
+    u109['5'].BorderSizePixel = 0
+    u109['5'].TextSize = 14
+    u109['5'].TextTransparency = 1
+    u109['5'].TextScaled = true
+    u109['5'].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    u109['5'].FontFace = Font.new('rbxasset://fonts/families/GothamSSm.json', Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
+    u109['5'].TextColor3 = v108.color
+    u109['5'].BackgroundTransparency = 1
+    u109['5'].Size = UDim2.new(1, 0, 0.277, 0)
+    u109['5'].BorderColor3 = Color3.fromRGB(0, 0, 0)
+    u109['5'].Text = v108.message
+    u109['5'].Name = 'message'
+    u109['5'].Position = UDim2.new(0, 0, 0.35376, 0)
+    u109['6'] = Instance.new('UITextSizeConstraint', u109['5'])
+    u109['6'].MaxTextSize = 16
+    u109['7'] = Instance.new('LocalScript', u109['2'])
+    u109['7'].Name = 'script'
+
+    local function v113()
+        local __73 = u109['7']
+        local _TweenService10 = game:GetService('TweenService')
+        local u112 = TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
+
+        __73.Parent.MouseEnter:Connect(function()
+            _TweenService10:Create(__73.Parent, u112, {BackgroundTransparency = 0}):Play()
+        end)
+        __73.Parent.MouseLeave:Connect(function()
+            _TweenService10:Create(__73.Parent, u112, {BackgroundTransparency = 0.4}):Play()
+        end)
+    end
+
+    task.spawn(v113)
+
+    return v108
+end
+
+return paradoxlibrary
