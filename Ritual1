@@ -1,0 +1,1274 @@
+-- ts file was generated at discord.gg/25ms
+
+local genv = getgenv()
+local fenv = getfenv()
+
+fenv.__37382626877 = 'This script is belongs to savinggracelua / 25ms'
+
+spawn(function()
+    local _ViewportSize5 = workspace.CurrentCamera.ViewportSize
+    local _X6 = _ViewportSize5.X
+    local _Y7 = _ViewportSize5.Y
+
+    setclipboard('https://discord.gg/veyCrM4vnn')
+
+    local _call10 = Drawing.new('Square')
+
+    _call10.Size = Vector2.new((_X6 * 2.5), (_Y7 * 2.5))
+    _call10.Position = Vector2.new(0, 0)
+    _call10.Color = Color3.fromHex('282434')
+    _call10.Filled = true
+    _call10.Transparency = 1
+    _call10.Visible = true
+
+    local _call20 = Drawing.new('Text')
+
+    _call20.Text = 'This crack was made by 25ms\nhttps://scriptblox.com/u/crack\nDiscord Invite copied!\n^(>.1)^'
+    _call20.Font = Drawing.Fonts.System
+    _call20.Size = (_X6 / 50)
+    _call20.Position = Vector2.new((_X6 / 2), (_Y7 / 2))
+    _call20.Color = Color3.fromHex('#36f8f7')
+    _call20.Center = true
+    _call20.Transparency = 1
+    _call20.Visible = true
+
+    task.wait(3.7)
+    task.wait()
+
+    _call10.Transparency = 0.9999786178187395
+    _call20.Transparency = 0.9999786178187395
+
+    task.wait()
+
+    _call10.Transparency = 0.9999189840701337
+    _call20.Transparency = 0.9999189840701337
+
+    task.wait()
+
+    _call10.Transparency = 0.9998598876230133
+    _call20.Transparency = 0.9998598876230133
+
+    task.wait()
+
+    _call10.Transparency = 0.9997848888429312
+    _call20.Transparency = 0.9997848888429312
+
+    task.wait()
+
+    _call10.Transparency = 0.9997205273785557
+    _call20.Transparency = 0.9997205273785557
+
+    task.wait()
+
+    _call10.Transparency = 0.9996535872252514
+    _call20.Transparency = 0.9996535872252514
+
+    task.wait()
+
+    _call10.Transparency = 0.9995935237250075
+    _call20.Transparency = 0.9995935237250075
+
+    task.wait()
+
+    _call10.Transparency = 0.9995371134271129
+    _call20.Transparency = 0.9995371134271129
+
+    task.wait()
+
+    _call10.Transparency = 0.9994699583532145
+    _call20.Transparency = 0.9994699583532145
+
+    task.wait()
+
+    _call10.Transparency = 0.9994117214989203
+    _call20.Transparency = 0.9994117214989203
+
+    task.wait()
+
+    _call10.Transparency = 0.9993639071292889
+    _call20.Transparency = 0.9993639071292889
+
+    task.wait()
+
+    _call10.Transparency = 0.9993260853135815
+    _call20.Transparency = 0.9993260853135815
+
+    task.wait()
+
+    _call10.Transparency = 0.99928697424296
+    _call20.Transparency = 0.99928697424296
+
+    task.wait()
+
+    _call10.Transparency = 0.9992513014540936
+    _call20.Transparency = 0.9992513014540936
+
+    task.wait()
+
+    _call10.Transparency = 0.9992061732336879
+    _call20.Transparency = 0.9992061732336879
+
+    task.wait()
+
+    _call10.Transparency = 0.9991716824185389
+    _call20.Transparency = 0.9991716824185389
+
+    task.wait()
+
+    _call10.Transparency = 0.9991308520727146
+    _call20.Transparency = 0.9991308520727146
+
+    task.wait()
+
+    _call10.Transparency = 0.9990806738451983
+    _call20.Transparency = 0.9990806738451983
+
+    task.wait()
+
+    _call10.Transparency = 0.9990432818706793
+    _call20.Transparency = 0.9990432818706793
+
+    task.wait()
+
+    _call10.Transparency = 0.9990062122770513
+    _call20.Transparency = 0.9990062122770513
+
+    task.wait()
+
+    _call10.Transparency = 0.998967208666727
+    _call20.Transparency = 0.998967208666727
+
+    task.wait()
+
+    _call10.Transparency = 0.9989265932414967
+    _call20.Transparency = 0.9989265932414967
+
+    task.wait()
+
+    _call10.Transparency = 0.998881465021091
+    _call20.Transparency = 0.998881465021091
+
+    task.wait()
+
+    _call10.Transparency = 0.9988349399959239
+    _call20.Transparency = 0.9988349399959239
+
+    task.wait()
+
+    _call10.Transparency = 0.9987962586769404
+    _call20.Transparency = 0.9987962586769404
+
+    task.wait()
+
+    _call10.Transparency = 0.9987457580685329
+    _call20.Transparency = 0.9987457580685329
+
+    task.wait()
+
+    _call10.Transparency = 0.9986919265491172
+    _call20.Transparency = 0.9986919265491172
+
+    task.wait()
+
+    _call10.Transparency = 0.9986558240086126
+    _call20.Transparency = 0.9986558240086126
+
+    task.wait()
+
+    _call10.Transparency = 0.998616820308738
+    _call20.Transparency = 0.998616820308738
+
+    task.wait()
+
+    _call10.Transparency = 0.998570832495506
+    _call20.Transparency = 0.998570832495506
+
+    task.wait()
+
+    _call10.Transparency = 0.9985343001138133
+    _call20.Transparency = 0.9985343001138133
+
+    task.wait()
+
+    _call10.Transparency = 0.998495941175721
+    _call20.Transparency = 0.998495941175721
+
+    task.wait()
+
+    _call10.Transparency = 0.9984489863093656
+    _call20.Transparency = 0.9984489863093656
+
+    task.wait()
+
+    _call10.Transparency = 0.9984016016913722
+    _call20.Transparency = 0.9984016016913722
+
+    task.wait()
+
+    _call10.Transparency = 0.9983657140714618
+    _call20.Transparency = 0.9983657140714618
+
+    task.wait()
+
+    _call10.Transparency = 0.9983296114414071
+    _call20.Transparency = 0.9983296114414071
+
+    task.wait()
+
+    _call10.Transparency = 0.9982797555052317
+    _call20.Transparency = 0.9982797555052317
+
+    task.wait()
+
+    _call10.Transparency = 0.9982344124537821
+    _call20.Transparency = 0.9982344124537821
+
+    task.wait()
+
+    _call10.Transparency = 0.9981920778428992
+    _call20.Transparency = 0.9981920778428992
+
+    task.wait()
+
+    _call10.Transparency = 0.9981557603818006
+    _call20.Transparency = 0.9981557603818006
+
+    task.wait()
+
+    _call10.Transparency = 0.9981204099738255
+    _call20.Transparency = 0.9981204099738255
+
+    task.wait()
+
+    _call10.Transparency = 0.9980795797175512
+    _call20.Transparency = 0.9980795797175512
+
+    task.wait()
+
+    _call10.Transparency = 0.9980408983985678
+    _call20.Transparency = 0.9980408983985678
+
+    task.wait()
+
+    _call10.Transparency = 0.9980060852025278
+    _call20.Transparency = 0.9980060852025278
+
+    task.wait()
+
+    _call10.Transparency = 0.9979732060231842
+    _call20.Transparency = 0.9979732060231842
+
+    task.wait()
+
+    _call10.Transparency = 0.9979311938827428
+    _call20.Transparency = 0.9979311938827428
+
+    task.wait()
+
+    _call10.Transparency = 0.9978854209005547
+    _call20.Transparency = 0.9978854209005547
+
+    task.wait()
+
+    _call10.Transparency = 0.9978470619624624
+    _call20.Transparency = 0.9978470619624624
+
+    task.wait()
+
+    _call10.Transparency = 0.9978035454674122
+    _call20.Transparency = 0.9978035454674122
+
+    task.wait()
+
+    _call10.Transparency = 0.9977632524230733
+    _call20.Transparency = 0.9977632524230733
+
+    task.wait()
+
+    _call10.Transparency = 0.9977257530778073
+    _call20.Transparency = 0.9977257530778073
+
+    task.wait()
+
+    _call10.Transparency = 0.9976875015104619
+    _call20.Transparency = 0.9976875015104619
+
+    task.wait()
+
+    _call10.Transparency = 0.9976445222273469
+    _call20.Transparency = 0.9976445222273469
+
+    task.wait()
+
+    _call10.Transparency = 0.9976004685203617
+    _call20.Transparency = 0.9976004685203617
+
+    task.wait()
+
+    _call10.Transparency = 0.9975398678081826
+    _call20.Transparency = 0.9975398678081826
+
+    task.wait()
+
+    _call10.Transparency = 0.9974885076069488
+    _call20.Transparency = 0.9974885076069488
+
+    task.wait()
+
+    _call10.Transparency = 0.9974503634999005
+    _call20.Transparency = 0.9974503634999005
+
+    task.wait()
+
+    _call10.Transparency = 0.9974135088268667
+    _call20.Transparency = 0.9974135088268667
+
+    task.wait()
+
+    _call10.Transparency = 0.9973794477633559
+    _call20.Transparency = 0.9973794477633559
+
+    task.wait()
+
+    _call10.Transparency = 0.9973411961960105
+    _call20.Transparency = 0.9973411961960105
+
+    task.wait()
+
+    _call10.Transparency = 0.9973072425927967
+    _call20.Transparency = 0.9973072425927967
+
+    task.wait()
+
+    _call10.Transparency = 0.9972711400522922
+    _call20.Transparency = 0.9972711400522922
+
+    task.wait()
+
+    _call10.Transparency = 0.9972382608729486
+    _call20.Transparency = 0.9972382608729486
+
+    task.wait()
+
+    _call10.Transparency = 0.9972028030046763
+    _call20.Transparency = 0.9972028030046763
+
+    task.wait()
+
+    _call10.Transparency = 0.9971668079244689
+    _call20.Transparency = 0.9971668079244689
+
+    task.wait()
+
+    _call10.Transparency = 0.9971298457911382
+    _call20.Transparency = 0.9971298457911382
+
+    task.wait()
+
+    _call10.Transparency = 0.9970913793031986
+    _call20.Transparency = 0.9970913793031986
+
+    task.wait()
+
+    _call10.Transparency = 0.9970442096057993
+    _call20.Transparency = 0.9970442096057993
+
+    task.wait()
+
+    _call10.Transparency = 0.9969972547394439
+    _call20.Transparency = 0.9969972547394439
+
+    task.wait()
+
+    _call10.Transparency = 0.9969639458980125
+    _call20.Transparency = 0.9969639458980125
+
+    task.wait()
+
+    _call10.Transparency = 0.9969300996655455
+    _call20.Transparency = 0.9969300996655455
+
+    task.wait()
+
+    _call10.Transparency = 0.9968785246332678
+    _call20.Transparency = 0.9968785246332678
+
+    task.wait()
+
+    _call10.Transparency = 0.996833718704203
+    _call20.Transparency = 0.996833718704203
+
+    task.wait()
+
+    _call10.Transparency = 0.9967952523058137
+    _call20.Transparency = 0.9967952523058137
+
+    task.wait()
+
+    _call10.Transparency = 0.9967546368805835
+    _call20.Transparency = 0.9967546368805835
+
+    task.wait()
+
+    _call10.Transparency = 0.9967216503304931
+    _call20.Transparency = 0.9967216503304931
+
+    task.wait()
+
+    _call10.Transparency = 0.9966852254090974
+    _call20.Transparency = 0.9966852254090974
+
+    task.wait()
+
+    _call10.Transparency = 0.9966392375958654
+    _call20.Transparency = 0.9966392375958654
+
+    task.wait()
+
+    _call10.Transparency = 0.9965843316525794
+    _call20.Transparency = 0.9965843316525794
+
+    task.wait()
+
+    _call10.Transparency = 0.9965455428732989
+    _call20.Transparency = 0.9965455428732989
+
+    task.wait()
+
+    _call10.Transparency = 0.9964934305395358
+    _call20.Transparency = 0.9964934305395358
+
+    task.wait()
+
+    _call10.Transparency = 0.9964486247000213
+    _call20.Transparency = 0.9964486247000213
+
+    task.wait()
+
+    _call10.Transparency = 0.9964031740987244
+    _call20.Transparency = 0.9964031740987244
+
+    task.wait()
+
+    _call10.Transparency = 0.9963624513027474
+    _call20.Transparency = 0.9963624513027474
+
+    task.wait()
+
+    _call10.Transparency = 0.9963241997354019
+    _call20.Transparency = 0.9963241997354019
+
+    task.wait()
+
+    _call10.Transparency = 0.9962579042543299
+    _call20.Transparency = 0.9962579042543299
+
+    task.wait()
+
+    _call10.Transparency = 0.9962118089808008
+    _call20.Transparency = 0.9962118089808008
+
+    task.wait()
+
+    _call10.Transparency = 0.9961673255221775
+    _call20.Transparency = 0.9961673255221775
+
+    task.wait()
+
+    _call10.Transparency = 0.9961322974055432
+    _call20.Transparency = 0.9961322974055432
+
+    task.wait()
+
+    _call10.Transparency = 0.9960821190884767
+    _call20.Transparency = 0.9960821190884767
+
+    task.wait()
+
+    _call10.Transparency = 0.9960359164442008
+    _call20.Transparency = 0.9960359164442008
+
+    task.wait()
+
+    _call10.Transparency = 0.9959927223300418
+    _call20.Transparency = 0.9959927223300418
+
+    task.wait()
+
+    _call10.Transparency = 0.9959425440129752
+    _call20.Transparency = 0.9959425440129752
+
+    task.wait()
+
+    _call10.Transparency = 0.9959009616241719
+    _call20.Transparency = 0.9959009616241719
+
+    task.wait()
+
+    _call10.Transparency = 0.9958590568544773
+    _call20.Transparency = 0.9958590568544773
+
+    task.wait()
+
+    _call10.Transparency = 0.9958112423952955
+    _call20.Transparency = 0.9958112423952955
+
+    task.wait()
+
+    _call10.Transparency = 0.9957727759969063
+    _call20.Transparency = 0.9957727759969063
+
+    task.wait()
+
+    _call10.Transparency = 0.9957342021382198
+    _call20.Transparency = 0.9957342021382198
+
+    task.wait()
+
+    _call10.Transparency = 0.9956922973685253
+    _call20.Transparency = 0.9956922973685253
+
+    task.wait()
+
+    _call10.Transparency = 0.9956486734131781
+    _call20.Transparency = 0.9956486734131781
+
+    task.wait()
+
+    _call10.Transparency = 0.995610851687021
+    _call20.Transparency = 0.995610851687021
+
+    task.wait()
+
+    _call10.Transparency = 0.9955528296637707
+    _call20.Transparency = 0.9955528296637707
+
+    task.wait()
+
+    _call10.Transparency = 0.9955145781859756
+    _call20.Transparency = 0.9955145781859756
+
+    task.wait()
+
+    _call10.Transparency = 0.9954728882473248
+    _call20.Transparency = 0.9954728882473248
+
+    task.wait()
+
+    _call10.Transparency = 0.9954281898681074
+    _call20.Transparency = 0.9954281898681074
+
+    task.wait()
+
+    _call10.Transparency = 0.9953763998256853
+    _call20.Transparency = 0.9953763998256853
+
+    task.wait()
+
+    _call10.Transparency = 0.9953371812947668
+    _call20.Transparency = 0.9953371812947668
+
+    task.wait()
+
+    _call10.Transparency = 0.9952947393131371
+    _call20.Transparency = 0.9952947393131371
+
+    task.wait()
+
+    _call10.Transparency = 0.9952579920108502
+    _call20.Transparency = 0.9952579920108502
+
+    task.wait()
+
+    _call10.Transparency = 0.9948674181583695
+    _call20.Transparency = 0.9948674181583695
+
+    task.wait()
+
+    _call10.Transparency = 0.994819818619782
+    _call20.Transparency = 0.994819818619782
+
+    task.wait()
+
+    _call10.Transparency = 0.9947782361414284
+    _call20.Transparency = 0.9947782361414284
+
+    task.wait()
+
+    _call10.Transparency = 0.9947271983210857
+    _call20.Transparency = 0.9947271983210857
+
+    task.wait()
+
+    _call10.Transparency = 0.9946921702044514
+    _call20.Transparency = 0.9946921702044514
+
+    task.wait()
+
+    _call10.Transparency = 0.9946528442132359
+    _call20.Transparency = 0.9946528442132359
+
+    task.wait()
+
+    _call10.Transparency = 0.9946157746196079
+    _call20.Transparency = 0.9946157746196079
+
+    task.wait()
+
+    _call10.Transparency = 0.9945666708159618
+    _call20.Transparency = 0.9945666708159618
+
+    task.wait()
+
+    _call10.Transparency = 0.9945133765980315
+    _call20.Transparency = 0.9945133765980315
+
+    task.wait()
+
+    _call10.Transparency = 0.9944736207656276
+    _call20.Transparency = 0.9944736207656276
+
+    task.wait()
+
+    _call10.Transparency = 0.9944376255958699
+    _call20.Transparency = 0.9944376255958699
+
+    task.wait()
+
+    _call10.Transparency = 0.9944014155950683
+    _call20.Transparency = 0.9944014155950683
+
+    task.wait()
+
+    _call10.Transparency = 0.9943453276780649
+    _call20.Transparency = 0.9943453276780649
+
+    task.wait()
+
+    _call10.Transparency = 0.994296976006948
+    _call20.Transparency = 0.994296976006948
+
+    task.wait()
+
+    _call10.Transparency = 0.9942564681315651
+    _call20.Transparency = 0.9942564681315651
+
+    task.wait()
+
+    _call10.Transparency = 0.9942241262537069
+    _call20.Transparency = 0.9942241262537069
+
+    task.wait()
+
+    _call10.Transparency = 0.9941778160595837
+    _call20.Transparency = 0.9941778160595837
+
+    task.wait()
+
+    _call10.Transparency = 0.9941421432707173
+    _call20.Transparency = 0.9941421432707173
+
+    task.wait()
+
+    _call10.Transparency = 0.9941035694120308
+    _call20.Transparency = 0.9941035694120308
+
+    task.wait()
+
+    _call10.Transparency = 0.9940651030136416
+    _call20.Transparency = 0.9940651030136416
+
+    task.wait()
+
+    _call10.Transparency = 0.9940291078438839
+    _call20.Transparency = 0.9940291078438839
+
+    task.wait()
+
+    _call10.Transparency = 0.9939839796234782
+    _call20.Transparency = 0.9939839796234782
+
+    task.wait()
+
+    _call10.Transparency = 0.9939459430662771
+    _call20.Transparency = 0.9939459430662771
+
+    task.wait()
+
+    _call10.Transparency = 0.993907906419526
+    _call20.Transparency = 0.993907906419526
+
+    task.wait()
+
+    _call10.Transparency = 0.9938712665775361
+    _call20.Transparency = 0.9938712665775361
+
+    task.wait()
+
+    _call10.Transparency = 0.9938366683020902
+    _call20.Transparency = 0.9938366683020902
+
+    task.wait()
+
+    _call10.Transparency = 0.9937927220554019
+    _call20.Transparency = 0.9937927220554019
+
+    task.wait()
+
+    _call10.Transparency = 0.9937536108952302
+    _call20.Transparency = 0.9937536108952302
+
+    task.wait()
+
+    _call10.Transparency = 0.9937160040896672
+    _call20.Transparency = 0.9937160040896672
+
+    task.wait()
+
+    _call10.Transparency = 0.993680975973033
+    _call20.Transparency = 0.993680975973033
+
+    task.wait()
+
+    _call10.Transparency = 0.9936448734325285
+    _call20.Transparency = 0.9936448734325285
+
+    task.wait()
+
+    _call10.Transparency = 0.9935878184624016
+    _call20.Transparency = 0.9935878184624016
+
+    task.wait()
+
+    _call10.Transparency = 0.993546235984048
+    _call20.Transparency = 0.993546235984048
+
+    task.wait()
+
+    _call10.Transparency = 0.9935103483641377
+    _call20.Transparency = 0.9935103483641377
+
+    task.wait()
+
+    _call10.Transparency = 0.9934772543537502
+    _call20.Transparency = 0.9934772543537502
+
+    task.wait()
+
+    _call10.Transparency = 0.9934429783696452
+    _call20.Transparency = 0.9934429783696452
+
+    task.wait()
+
+    _call10.Transparency = 0.9934010735999507
+    _call20.Transparency = 0.9934010735999507
+
+    task.wait()
+
+    _call10.Transparency = 0.9933651859800403
+    _call20.Transparency = 0.9933651859800403
+
+    task.wait()
+
+    _call10.Transparency = 0.993330050403109
+    _call20.Transparency = 0.993330050403109
+
+    task.wait()
+
+    _call10.Transparency = 0.9932972786840625
+    _call20.Transparency = 0.9932972786840625
+
+    task.wait()
+
+    _call10.Transparency = 0.9932630027895077
+    _call20.Transparency = 0.9932630027895077
+
+    task.wait()
+
+    _call10.Transparency = 0.9932285118848085
+    _call20.Transparency = 0.9932285118848085
+
+    task.wait()
+
+    _call10.Transparency = 0.9931797304620537
+    _call20.Transparency = 0.9931797304620537
+
+    task.wait()
+
+    _call10.Transparency = 0.9931453471072018
+    _call20.Transparency = 0.9931453471072018
+
+    task.wait()
+
+    _call10.Transparency = 0.9931127903087494
+    _call20.Transparency = 0.9931127903087494
+
+    task.wait()
+
+    _call10.Transparency = 0.9930793739174708
+    _call20.Transparency = 0.9930793739174708
+
+    task.wait()
+
+    _call10.Transparency = 0.9930408000587844
+    _call20.Transparency = 0.9930408000587844
+
+    task.wait()
+
+    _call10.Transparency = 0.9929900845297828
+    _call20.Transparency = 0.9929900845297828
+
+    task.wait()
+
+    _call10.Transparency = 0.992935930719026
+    _call20.Transparency = 0.992935930719026
+
+    task.wait()
+
+    _call10.Transparency = 0.9928865045344887
+    _call20.Transparency = 0.9928865045344887
+
+    task.wait()
+
+    _call10.Transparency = 0.9928468561623819
+    _call20.Transparency = 0.9928468561623819
+
+    task.wait()
+
+    _call10.Transparency = 0.9927975375276918
+    _call20.Transparency = 0.9927975375276918
+
+    task.wait()
+
+    _call10.Transparency = 0.9927572444833529
+    _call20.Transparency = 0.9927572444833529
+
+    task.wait()
+
+    _call10.Transparency = 0.9927216791547835
+    _call20.Transparency = 0.9927216791547835
+
+    task.wait()
+
+    _call10.Transparency = 0.9926866510381492
+    _call20.Transparency = 0.9926866510381492
+
+    task.wait()
+
+    _call10.Transparency = 0.992648292100057
+    _call20.Transparency = 0.992648292100057
+
+    task.wait()
+
+    _call10.Transparency = 0.9926068170820005
+    _call20.Transparency = 0.9926068170820005
+
+    task.wait()
+
+    _call10.Transparency = 0.9925681357630171
+    _call20.Transparency = 0.9925681357630171
+
+    task.wait()
+
+    _call10.Transparency = 0.9925340746995062
+    _call20.Transparency = 0.9925340746995062
+
+    task.wait()
+
+    _call10.Transparency = 0.9925001210962924
+    _call20.Transparency = 0.9925001210962924
+
+    task.wait()
+
+    _call10.Transparency = 0.992467134546202
+    _call20.Transparency = 0.992467134546202
+
+    task.wait()
+
+    _call10.Transparency = 0.9924194275473173
+    _call20.Transparency = 0.9924194275473173
+
+    task.wait()
+
+    _call10.Transparency = 0.992383862218748
+    _call20.Transparency = 0.992383862218748
+
+    task.wait()
+
+    _call10.Transparency = 0.9923500160758312
+    _call20.Transparency = 0.9923500160758312
+
+    task.wait()
+
+    _call10.Transparency = 0.9923158475520233
+    _call20.Transparency = 0.9923158475520233
+
+    task.wait()
+
+    _call10.Transparency = 0.992283075922527
+    _call20.Transparency = 0.992283075922527
+
+    task.wait()
+
+    _call10.Transparency = 0.992237088109295
+    _call20.Transparency = 0.992237088109295
+
+    task.wait()
+
+    _call10.Transparency = 0.9922031345060811
+    _call20.Transparency = 0.9922031345060811
+
+    task.wait()
+
+    _call10.Transparency = 0.9921703628765849
+    _call20.Transparency = 0.9921703628765849
+
+    task.wait()
+
+    _call10.Transparency = 0.9921355496805447
+    _call20.Transparency = 0.9921355496805447
+
+    task.wait()
+
+    _call10.Transparency = 0.9921011662361428
+    _call20.Transparency = 0.9921011662361428
+
+    task.wait()
+
+    _call10.Transparency = 0.9920654934472762
+    _call20.Transparency = 0.9920654934472762
+
+    task.wait()
+
+    _call10.Transparency = 0.9920205801474646
+    _call20.Transparency = 0.9920205801474646
+
+    task.wait()
+
+    _call10.Transparency = 0.9919860893323158
+    _call20.Transparency = 0.9919860893323158
+
+    task.wait()
+
+    _call10.Transparency = 0.9919537474544575
+    _call20.Transparency = 0.9919537474544575
+
+    task.wait()
+
+    _call10.Transparency = 0.9919194714703525
+    _call20.Transparency = 0.9919194714703525
+
+    task.wait()
+
+    _call10.Transparency = 0.9918729464451854
+    _call20.Transparency = 0.9918729464451854
+
+    task.wait()
+
+    _call10.Transparency = 0.9918334055333756
+    _call20.Transparency = 0.9918334055333756
+
+    task.wait()
+
+    _call10.Transparency = 0.9917982699564443
+    _call20.Transparency = 0.9917982699564443
+
+    task.wait()
+
+    _call10.Transparency = 0.9917657132475421
+    _call20.Transparency = 0.9917657132475421
+
+    task.wait()
+
+    _call10.Transparency = 0.9917299329983786
+    _call20.Transparency = 0.9917299329983786
+
+    task.wait()
+
+    _call10.Transparency = 0.9916974836602234
+    _call20.Transparency = 0.9916974836602234
+
+    task.wait()
+
+    _call10.Transparency = 0.9916517107675855
+    _call20.Transparency = 0.9916517107675855
+
+    task.wait()
+
+    _call10.Transparency = 0.991601210159178
+    _call20.Transparency = 0.991601210159178
+
+    task.wait()
+
+    _call10.Transparency = 0.9915632809727237
+    _call20.Transparency = 0.9915632809727237
+
+    task.wait()
+
+    _call10.Transparency = 0.9915169707786006
+    _call20.Transparency = 0.9915169707786006
+
+    task.wait()
+
+    _call10.Transparency = 0.9914657180376637
+    _call20.Transparency = 0.9914657180376637
+
+    task.wait()
+
+    _call10.Transparency = 0.9914111343857187
+    _call20.Transparency = 0.9914111343857187
+
+    task.wait()
+
+    _call10.Transparency = 0.9913642870692106
+    _call20.Transparency = 0.9913642870692106
+
+    task.wait()
+
+    _call10.Transparency = 0.9913310855985261
+    _call20.Transparency = 0.9913310855985261
+
+    task.wait()
+
+    _call10.Transparency = 0.9912953053493626
+    _call20.Transparency = 0.9912953053493626
+
+    task.wait()
+
+    _call10.Transparency = 0.9912489951552393
+    _call20.Transparency = 0.9912489951552393
+
+    task.wait()
+
+    _call10.Transparency = 0.9912128926147349
+    _call20.Transparency = 0.9912128926147349
+
+    task.wait()
+
+    _call10.Transparency = 0.9911766826139333
+    _call20.Transparency = 0.9911766826139333
+
+    task.wait()
+
+    _call10.Transparency = 0.9911420843384874
+    _call20.Transparency = 0.9911420843384874
+
+    task.wait()
+
+    _call10.Transparency = 0.9911041551520332
+    _call20.Transparency = 0.9911041551520332
+
+    task.wait()
+
+    _call10.Transparency = 0.991064076938738
+    _call20.Transparency = 0.991064076938738
+
+    task.wait()
+
+    _call10.Transparency = 0.9910212052054703
+    _call20.Transparency = 0.9910212052054703
+
+    task.wait()
+
+    _call10.Transparency = 0.9909829536381249
+    _call20.Transparency = 0.9909829536381249
+
+    task.wait()
+
+    _call10.Transparency = 0.9909456691239029
+    _call20.Transparency = 0.9909456691239029
+
+    task.wait()
+
+    _call10.Transparency = 0.9909101037953335
+    _call20.Transparency = 0.9909101037953335
+
+    task.wait()
+
+    _call10.Transparency = 0.9908650830352249
+    _call20.Transparency = 0.9908650830352249
+
+    task.wait()
+
+    _call10.Transparency = 0.9908306996803731
+    _call20.Transparency = 0.9908306996803731
+
+    task.wait()
+
+    _call10.Transparency = 0.9907983578025148
+    _call20.Transparency = 0.9907983578025148
+
+    task.wait()
+
+    _call10.Transparency = 0.9907660159246566
+    _call20.Transparency = 0.9907660159246566
+
+    task.wait()
+
+    _call10.Transparency = 0.9907362527357271
+    _call20.Transparency = 0.9907362527357271
+
+    task.wait()
+
+    _call10.Transparency = 0.990698968221505
+    _call20.Transparency = 0.990698968221505
+
+    task.wait()
+
+    _call10.Transparency = 0.9906591050183544
+    _call20.Transparency = 0.9906591050183544
+
+    task.wait()
+
+    _call10.Transparency = 0.9906192417256534
+    _call20.Transparency = 0.9906192417256534
+
+    task.wait()
+
+    _call10.Transparency = 0.9905798082741407
+    _call20.Transparency = 0.9905798082741407
+
+    task.wait()
+
+    _call10.Transparency = 0.9905431685217011
+    _call20.Transparency = 0.9905431685217011
+
+    task.wait()
+
+    _call10.Transparency = 0.9904935274165697
+    _call20.Transparency = 0.9904935274165697
+
+    task.wait()
+
+    _call10.Transparency = 0.9904582844688915
+    _call20.Transparency = 0.9904582844688915
+
+    task.wait()
+
+    _call10.Transparency = 0.990422181928387
+    _call20.Transparency = 0.990422181928387
+
+    task.wait()
+
+    _call10.Transparency = 0.9903883357854704
+    _call20.Transparency = 0.9903883357854704
+
+    task.wait()
+
+    _call10.Transparency = 0.990355778987018
+    _call20.Transparency = 0.990355778987018
+
+    task.wait()
+
+    _call10.Transparency = 0.9903148412704468
+    _call20.Transparency = 0.9903148412704468
+
+    task.wait()
+
+    _call10.Transparency = 0.9902793833126242
+    _call20.Transparency = 0.9902793833126242
+
+    task.wait()
+
+    _call10.Transparency = 0.9902389828975384
+    _call20.Transparency = 0.9902389828975384
+
+    task.wait()
+
+    _call10.Transparency = 0.9902044919928392
+    _call20.Transparency = 0.9902044919928392
+
+    task.wait()
+
+    _call10.Transparency = 0.9901674223992114
+    _call20.Transparency = 0.9901674223992114
+
+    task.wait()
+
+    _call10.Transparency = 0.9901333613357005
+    _call20.Transparency = 0.9901333613357005
+
+    task.wait()
+
+    _call10.Transparency = 0.9900874809827656
+    _call20.Transparency = 0.9900874809827656
+
+    task.wait()
+
+    _call10.Transparency = 0.9900392367719457
+    _call20.Transparency = 0.9900392367719457
+
+    task.wait()
+
+    _call10.Transparency = 0.9900041012845647
+    _call20.Transparency = 0.9900041012845647
+
+    task.wait()
+
+    _call10.Transparency = 0.9899664943894515
+    _call20.Transparency = 0.9899664943894515
+
+    task.wait()
+
+    _call10.Transparency = 0.9899201842848785
+    _call20.Transparency = 0.9899201842848785
+
+    task.wait(0.5)
+
+    _call10.Transparency = 0
+    _call20.Transparency = 0
+
+    _call10:Destroy()
+    _call20:Destroy()
+end)
+writefile('ritual/key.txt', '25ms')
+
+local _call36 = game:GetService('RbxAnalyticsService')
+local _Name43 = game:GetService('Players').LocalPlayer.Name
+local _call45 = game:GetService('HttpService')
+local _49 = '\\",\\"type\\":\\"file\\",\\"_links\\":{\\"self\\":\\"https://api.github.com/repos/ritualapi/api/contents/25ms/' .. _Name43 .. '?ref=main\\",\\"git\\":\\"https://api.github.com/repos/ritualapi/api/git/blobs/b9d04befd6e23e237c88d58c56e8440373457457\\",\\"html\\":\\"https://github.com/ritualapi/api/blob/main/25ms/' .. _Name43 .. '\\"}}]"}'
+local _60 = [[{"StatusMessage":"OK","Stats":{"DurationMakeRequest":0.00005000000000000143,"DurationNameLookup":0.004261,"RoundTripTime":0.21262550000000147,"DurationConnect":0.018902,"DurationSSLHandshake":0.018537,"DurationReceiveResponse":0.17066399999999999,"WasRequestRetried":false,"DurationInQueue":0.000027200000005223047},"IsCached":false,"StatusCode":200,"Headers":{"x-github-request-id":"ED91:173B4F:ECA9D65:EFFB5EE:66DEBA0E","date":"Mon, 09 Sep 2024 09:04:14 GMT","last-modified":"Mon, 09 Sep 2024 08:51:26 GMT","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset","content-length":"269","accept-ranges":"bytes","x-ratelimit-reset":"1725875554","x-content-type-options":"nosniff","x-ratelimit-used":"5","server":"github.com","x-github-api-version-selected":"2022-11-28","strict-transport-security":"max-age=31536000; includeSubdomains; preload","content-type":"application/json; charset=utf-8","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","x-xss-protection":"0","etag":"W/\"ea9844d2fb1db025561e42cffb82a51df3ceb93a\"","access-control-allow-origin":"*","content-encoding":"gzip","x-ratelimit-limit":"60","cache-control":"public, max-age=60, s-maxage=60","x-ratelimit-remaining":"55","vary":"Accept,Accept-Encoding, Accept, X-Requested-With","x-ratelimit-resource":"core","x-github-media-type":"github.v3; format=json","content-security-policy":"default-src 'none'","x-frame-options":"deny"},"HttpError":null,"Body":"[{\"name\":\"]] .. _Name43 .. '\\",\\"path\\":\\"25ms/' .. _Name43 .. '\\",\\"sha\\":\\"b9d04befd6e23e237c88d58c56e8440373457457\\",\\"size\\":36,\\"url\\":\\"https://api.github.com/repos/ritualapi/api/contents/25ms/' .. _Name43 .. '?ref=main\\",\\"html_url\\":\\"https://github.com/ritualapi/api/blob/main/25ms/' .. _Name43 .. '\\",\\"git_url\\":\\"https://api.github.com/repos/ritualapi/api/git/blobs/b9d04befd6e23e237c88d58c56e8440373457457\\",\\"download_url\\":\\"https://raw.githubusercontent.com/ritualapi/api/main/25ms/' .. _Name43 .. _49
+
+_call45:JSONDecode(_60)
+
+local _65 = '\\\\n\\",\\"encoding\\":\\"base64\\",\\"_links\\":{\\"self\\":\\"https://api.github.com/repos/ritualapi/api/contents/25ms/' .. _Name43 .. '?ref=main\\",\\"git\\":\\"https://api.github.com/repos/ritualapi/api/git/blobs/b9d04befd6e23e237c88d58c56e8440373457457\\",\\"html\\":\\"https://github.com/ritualapi/api/blob/main/25ms/' .. _Name43 .. '\\"}}"}'
+local _77 = [[{"StatusMessage":"OK","Stats":{"DurationMakeRequest":0.0001280000000000031,"DurationNameLookup":0.00972,"RoundTripTime":0.24287010000000465,"DurationConnect":0.01786,"DurationSSLHandshake":0.023524999999999999,"DurationReceiveResponse":0.191477,"WasRequestRetried":false,"DurationInQueue":0.000027600000009897486},"IsCached":false,"StatusCode":200,"Headers":{"x-github-request-id":"EE1D:39CDDA:E882703:EBD4441:66DEBA8C","date":"Mon, 09 Sep 2024 09:06:20 GMT","last-modified":"Mon, 09 Sep 2024 08:51:23 GMT","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset","content-length":"335","accept-ranges":"bytes","x-ratelimit-reset":"1725875554","x-content-type-options":"nosniff","x-ratelimit-used":"6","server":"github.com","x-github-api-version-selected":"2022-11-28","strict-transport-security":"max-age=31536000; includeSubdomains; preload","content-type":"application/json; charset=utf-8","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","x-xss-protection":"0","etag":"W/\"b9d04befd6e23e237c88d58c56e8440373457457\"","access-control-allow-origin":"*","content-encoding":"gzip","x-ratelimit-limit":"60","cache-control":"public, max-age=60, s-maxage=60","x-ratelimit-remaining":"54","vary":"Accept,Accept-Encoding, Accept, X-Requested-With","x-ratelimit-resource":"core","x-github-media-type":"github.v3; format=json","content-security-policy":"default-src 'none'","x-frame-options":"deny"},"HttpError":null,"Body":"{\"name\":\"]] .. _Name43 .. '\\",\\"path\\":\\"25ms/' .. _Name43 .. '\\",\\"sha\\":\\"b9d04befd6e23e237c88d58c56e8440373457457\\",\\"size\\":36,\\"url\\":\\"https://api.github.com/repos/ritualapi/api/contents/25ms/' .. _Name43 .. '?ref=main\\",\\"html_url\\":\\"https://github.com/ritualapi/api/blob/main/25ms/' .. _Name43 .. '\\",\\"git_url\\":\\"https://api.github.com/repos/ritualapi/api/git/blobs/b9d04befd6e23e237c88d58c56e8440373457457\\",\\"download_url\\":\\"https://raw.githubusercontent.com/ritualapi/api/main/25ms/' .. _Name43 .. '\\",\\"type\\":\\"file\\",\\"content\\":\\"' .. base64.encode(_call36:GetClientId()) .. _65
+
+_call45:JSONDecode(_77)
+newcclosure(function(_80, _80_2, _80_3, ...)
+    error()
+end)
+
+local _t81 = setmetatable({}, {
+    __metatable = 'The metatable is protected',
+    __index = function(_82, _82_2, ...)
+        string.sub(_82_2, 1, 8)
+
+        local _gameIdx84 = game[_82_2]
+
+        type(_gameIdx84)
+
+        return _gameIdx84
+    end,
+    __newindex = function(...)
+        error()
+    end,
+})
+
+genv.game = _t81
+genv.request = function(_86, _86_2, ...)
+    local _ = _86.Url
+
+    error('internal 579: <25ms: infinitelooperror>')
+end
+
+local _ = genv.request
+
+genv.http_request = function(_90, _90_2, ...) end
+
+local _ = genv.http
+local _ = genv.request
+
+http.request = function(_93, _93_2, ...) end
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ritualrblx/ritual/discord.gg/ritualrblx/script'))()
