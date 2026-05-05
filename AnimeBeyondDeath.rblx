@@ -1,0 +1,39 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+  <External>null</External>
+  <External>nil</External>
+  <Item class="DataModel" referent="RBX0">
+    <Properties>
+      <bool name="FilteringEnabled">true</bool>
+      <string name="Name">Anime Beyond Death</string>
+    </Properties>
+    <Item class="Workspace" referent="RBX1">
+      <Properties><string name="Name">Workspace</string></Properties>
+      <Item class="Folder" referent="RBX2"><Properties><string name="Name">Maps</string></Properties></Item>
+    </Item>
+    <Item class="ReplicatedStorage" referent="RBX3">
+      <Properties><string name="Name">ReplicatedStorage</string></Properties>
+      <Item class="Folder" referent="RBX4"><Properties><string name="Name">Remotes</string></Properties></Item>
+      <Item class="Folder" referent="RBX5"><Properties><string name="Name">SharedModules</string></Properties></Item>
+      <Item class="ModuleScript" referent="RBX6">
+        <Properties>
+          <string name="Name">AbilityConfig</string>
+          <ProtectedString name="Source">return { Version = "prototype", GameTitle = "Anime Beyond Death" }</ProtectedString>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="ServerScriptService" referent="RBX7">
+      <Properties><string name="Name">ServerScriptService</string></Properties>
+      <Item class="Script" referent="RBX8">
+        <Properties>
+          <string name="Name">Bootstrap</string>
+          <ProtectedString name="Source">print("Anime Beyond Death server bootstrap loaded")</ProtectedString>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="StarterGui" referent="RBX9">
+      <Properties><string name="Name">StarterGui</string></Properties>
+      <Item class="ScreenGui" referent="RBX10"><Properties><string name="Name">MainMenu</string></Properties></Item>
+    </Item>
+    <Item class="Lighting" referent="RBX11"><Properties><string name="Name">Lighting</string></Properties></Item>
+  </Item>
+</roblox>
