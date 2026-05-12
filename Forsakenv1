@@ -1,0 +1,217 @@
+.Size=UDim2.new(1,0,0,36)
+TB.BackgroundColor3=Color3.fromRGB(85,0,180) TB.BorderSizePixel=0 TB.Parent=Main
+local tc=Instance.new("UICorner") tc.CornerRadius=UDim.new(0,8) tc.Parent=TB
+local tf=Instance.new("Frame") tf.Size=UDim2.new(1,0,0.5,0) tf.Position=UDim2.new(0,0,0.5,0)
+tf.BackgroundColor3=Color3.fromRGB(85,0,180) tf.BorderSizePixel=0 tf.Parent=TB
+local TL=Instance.new("TextLabel") TL.Text="⚡  UGC Script  v3  |  Xeno"
+TL.Size=UDim2.new(1,-38,1,0) TL.Position=UDim2.new(0,10,0,0) TL.BackgroundTransparency=1
+TL.TextColor3=Color3.new(1,1,1) TL.Font=Enum.Font.GothamBold TL.TextSize=14
+TL.TextXAlignment=Enum.TextXAlignment.Left TL.Parent=TB
+local MB=Instance.new("TextButton") MB.Text="−" MB.Size=UDim2.new(0,26,0,26)
+MB.Position=UDim2.new(1,-30,0,5) MB.BackgroundColor3=Color3.fromRGB(35,0,80)
+MB.TextColor3=Color3.new(1,1,1) MB.Font=Enum.Font.GothamBold MB.TextSize=18
+MB.BorderSizePixel=0 MB.Parent=TB
+Instance.new("UICorner").Parent=MB
+
+-- Body scroll
+local Body=Instance.new("ScrollingFrame") Body.Name="Body"
+Body.Size=UDim2.new(1,0,1,-36) Body.Position=UDim2.new(0,0,0,36)
+Body.BackgroundTransparency=1 Body.ScrollBarThickness=4
+Body.ScrollBarImageColor3=Color3.fromRGB(120,0,230)
+Body.CanvasSize=UDim2.new(0,0,0,0) Body.AutomaticCanvasSize=Enum.AutomaticSize.Y Body.Parent=Main
+local LL=Instance.new("UIListLayout") LL.Padding=UDim.new(0,5)
+LL.HorizontalAlignment=Enum.HorizontalAlignment.Center LL.Parent=Body
+local BP=Instance.new("UIPadding") BP.PaddingTop=UDim.new(0,8) BP.PaddingBottom=UDim.new(0,8) BP.Parent=Body
+
+local minimized=false
+MB.MouseButton1Click:Connect(function()
+    minimized=not minimized MB.Text=minimized and "+" or "−"
+    Body.Visible=not minimized
+    Main.Size=minimized and UDim2.new(0,310,0,36) or UDim2.new(0,310,0,480)
+end)
+
+-- ── UI component builders ──────────────────────────────────
+local function Section(t)
+    local f=Instance.new("TextLabel") f.Text="  "..t f.Size=UDim2.new(0,290,0,20)
+    f.BackgroundColor3=Color3.fromRGB(65,0,140) f.TextColor3=Color3.fromRGB(205,165,255)
+    f.Font=Enum.Font.GothamBold f.TextSize=11 f.TextXAlignment=Enum.TextXAlignment.Left
+    f.BorderSizePixel=0 f.Parent=Body
+    Instance.new("UICorner").Parent=f
+end
+
+local function Toggle(label, key, cb)
+    local row=Instance.new("Frame") row.Size=UDim2.new(0,290,0,34)
+    row.BackgroundColor3=Color3.fromRGB(20,20,28) row.BorderSizePixel=0 row.Parent=Body
+    Instance.new("UICorner").Parent=row
+    local lbl=Instance.new("TextLabel") lbl.Text=label lbl.Size=UDim2.new(1,-58,1,0)
+    lbl.Position=UDim2.new(0,10,0,0) lbl.BackgroundTransparency=1
+    lbl.TextColor3=Color3.fromRGB(210,210,230) lbl.Font=Enum.Font.Gotham lbl.TextSize=12
+    lbl.TextXAlignment=Enum.TextXAlignment.Left lbl.Parent=row
+    local pill=Instance.new("Frame") pill.Size=UDim2.new(0,44,0,22)
+    pill.Position=UDim2.new(1,-50,0.5,-11) pill.BackgroundColor3=Color3.fromRGB(50,50,65)
+    pill.BorderSizePixel=0 pill.Parent=row
+    local pc=Instance.new("UICorner") pc.CornerRadius=UDim.new(1,0) pc.Parent=pill
+    local knob=Instance.new("Frame") knob.Size=UDim2.new(0,18,0,18)
+    knob.Position=UDim2.new(0,2,0.5,-9) knob.BackgroundColor3=Color3.fromRGB(170,170,170)
+    knob.BorderSizePixel=0 knob.Parent=pill
+    local kc=Instance.new("UICorner") kc.CornerRadius=UDim.new(1,0) kc.Parent=knob
+    local enabled=State[key] or false
+    local function Set(v)
+        enabled=v State[key]=v
+        TweenService:Create(knob,TweenInfo.new(0.13),{
+            Position=v and UDim2.new(1,-20,0.5,-9) or UDim2.new(0,2,0.5,-9),
+            BackgroundColor3=v and Color3.fromRGB(170,80,255) or Color3.fromRGB(170,170,170),
+        }):Play()
+        TweenService:Create(pill,TweenInfo.new(0.13),{
+            BackgroundColor3=v and Color3.fromRGB(65,0,160) or Color3.fromRGB(50,50,65),
+        }):Play()
+        if cb then cb(v) end
+    end
+    local hit=Instance.new("TextButton") hit.Size=UDim2.new(1,0,1,0)
+    hit.BackgroundTransparency=1 hit.Text="" hit.Parent=row
+    hit.MouseButton1Click:Connect(function() Set(not enabled) end)
+    Set(enabled)
+    return Set
+end
+
+local function Slider(label, key, minV, maxV, step, cb)
+    local row=Instance.new("Frame") row.Size=UDim2.new(0,290,0,46)
+    row.BackgroundColor3=Color3.fromRGB(20,20,28) row.BorderSizePixel=0 row.Parent=Body
+    Instance.new("UICorner").Parent=row
+    local lbl=Instance.new("TextLabel") lbl.Size=UDim2.new(1,-10,0,22)
+    lbl.Position=UDim2.new(0,10,0,2) lbl.BackgroundTransparency=1
+    lbl.TextColor3=Color3.fromRGB(195,195,215) lbl.Font=Enum.Font.Gotham lbl.TextSize=12
+    lbl.TextXAlignment=Enum.TextXAlignment.Left lbl.Parent=row
+    local track=Instance.new("Frame") track.Size=UDim2.new(1,-20,0,6)
+    track.Position=UDim2.new(0,10,1,-12) track.BackgroundColor3=Color3.fromRGB(50,50,65)
+    track.BorderSizePixel=0 track.Parent=row
+    Instance.new("UICorner").CornerRadius=UDim.new(1,0)
+    Instance.new("UICorner").Parent=track
+    local fill=Instance.new("Frame") fill.Size=UDim2.new(0,0,1,0)
+    fill.BackgroundColor3=Color3.fromRGB(110,0,240) fill.BorderSizePixel=0 fill.Parent=track
+    Instance.new("UICorner").CornerRadius=UDim.new(1,0)
+    Instance.new("UICorner").Parent=fill
+    local cur=State[key] or minV local dragging=false
+    local function SetVal(v)
+        v=math.clamp(math.round(v/step)*step,minV,maxV) cur=v State[key]=v
+        fill.Size=UDim2.new((v-minV)/(maxV-minV),0,1,0)
+        lbl.Text=label..":  "..tostring(v)
+        if cb then cb(v) end
+    end
+    track.InputBegan:Connect(function(i)
+        if i.UserInputType==Enum.UserInputType.MouseButton1 then
+            dragging=true
+            local r=(i.Position.X-track.AbsolutePosition.X)/track.AbsoluteSize.X
+            SetVal(minV+r*(maxV-minV))
+        end
+    end)
+    UserInputService.InputEnded:Connect(function(i)
+        if i.UserInputType==Enum.UserInputType.MouseButton1 then dragging=false end
+    end)
+    UserInputService.InputChanged:Connect(function(i)
+        if dragging and i.UserInputType==Enum.UserInputType.MouseMovement then
+            local r=(i.Position.X-track.AbsolutePosition.X)/track.AbsoluteSize.X
+            SetVal(minV+r*(maxV-minV))
+        end
+    end)
+    SetVal(cur) return SetVal
+end
+
+local function Btn(label, cb)
+    local b=Instance.new("TextButton") b.Text=label b.Size=UDim2.new(0,290,0,30)
+    b.BackgroundColor3=Color3.fromRGB(65,0,150) b.TextColor3=Color3.new(1,1,1)
+    b.Font=Enum.Font.GothamBold b.TextSize=12 b.BorderSizePixel=0 b.Parent=Body
+    Instance.new("UICorner").Parent=b
+    b.MouseButton1Click:Connect(cb) return b
+end
+
+local function InfoLabel(txt)
+    local f=Instance.new("TextLabel") f.Text=txt f.Size=UDim2.new(0,290,0,20)
+    f.BackgroundTransparency=1 f.TextColor3=Color3.fromRGB(150,150,170)
+    f.Font=Enum.Font.Gotham f.TextSize=10 f.TextXAlignment=Enum.TextXAlignment.Center
+    f.Parent=Body
+end
+
+-- ═══════════════════════════════════════════════════════════
+--  BUILD GUI LAYOUT
+-- ═══════════════════════════════════════════════════════════
+
+Section("▸ MOVEMENT")
+Toggle("Speed Hack", "SpeedHack", ApplySpeed)
+Slider("Speed", "SpeedValue", 16, 300, 1, function(v)
+    if State.SpeedHack then local h=Hum() if h then h.WalkSpeed=v end end
+end)
+Toggle("Infinite Jump", "InfJump", ApplyInfJump)
+Toggle("Fly  (WASD + Space / Ctrl)", "Fly", ApplyFly)
+Slider("Fly Speed", "FlySpeed", 10, 250, 5, function() end)
+
+Section("▸ SURVIVAL")
+Toggle("God Mode  (client-side HP lock)", "GodMode", ApplyGodMode)
+Toggle("Anti-Status Effects", "AntiStatus", ApplyAntiStatus)
+Toggle("Auto-Repair Generators", "AutoRepair", function(v)
+    ApplyAutoRepair(v)
+end)
+InfoLabel("⚠ Solve 1 gen manually first — script learns & replays the call")
+
+Section("▸ TELEPORT")
+Btn("⚙ TP → Nearest Generator", TpToNearestGenerator)
+Btn("🚪 TP → Exit / Gate / Hatch", TpToNearestExit)
+Btn("🏠 TP → Lobby", TpToLobby)
+
+Section("▸ ESP")
+Toggle("Survivor ESP  [green]", "ESP", function(v)
+    ClearESP()
+    if State.ESP or State.KillerESP or State.ItemESP or State.GenESP then RebuildESP() end
+end)
+Toggle("Killer ESP  [red]", "KillerESP", function(v)
+    ClearESP()
+    if State.ESP or State.KillerESP or State.ItemESP or State.GenESP then RebuildESP() end
+end)
+Toggle("Item ESP  [yellow — world drops]", "ItemESP", function(v)
+    ClearESP()
+    if State.ESP or State.KillerESP or State.ItemESP or State.GenESP then RebuildESP() end
+end)
+Toggle("Generator ESP  [orange]", "GenESP", function(v)
+    ClearESP()
+    if State.ESP or State.KillerESP or State.ItemESP or State.GenESP then RebuildESP() end
+end)
+
+Section("▸ MISC")
+Btn("🔃 Refresh ESP", function() ClearESP() RebuildESP() end)
+Btn("📋 Copy My Role Info", function()
+    local role = "?"
+    pcall(function()
+        if lp.Team then role = lp.Team.Name end
+    end)
+    pcall(function()
+        setclipboard(("Name:%s | ID:%d | Team:%s"):format(lp.Name, lp.UserId, role))
+    end)
+end)
+
+-- ═══════════════════════════════════════════════════════════
+--  KEYBIND:  Right Alt  = toggle GUI
+-- ═══════════════════════════════════════════════════════════
+UserInputService.InputBegan:Connect(function(i, gp)
+    if gp then return end
+    if i.KeyCode == Enum.KeyCode.RightAlt then
+        Main.Visible = not Main.Visible
+    end
+end)
+
+-- ═══════════════════════════════════════════════════════════
+--  RESPAWN — re-apply active features
+-- ═══════════════════════════════════════════════════════════
+lp.CharacterAdded:Connect(function()
+    task.wait(1)
+    speedBV=nil flyBG=nil flyBV2=nil
+    if State.SpeedHack  then ApplySpeed(true)       end
+    if State.InfJump    then ApplyInfJump(true)     end
+    if State.Fly        then ApplyFly(true)         end
+    if State.GodMode    then ApplyGodMode(true)     end
+    if State.AntiStatus then ApplyAntiStatus(true)  end
+    ScheduleESPRebuild()
+end)
+
+print("[UGC Script v3] Ready!  Right Alt = toggle UI")
+print("[UGC Script v3] NOCLIP REMOVED — causes anti-cheat kicks")
+print("[UGC Script v3] For Auto-Repair: enable toggle, then solve 1 generator manually to teach the script")
